@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from "../components/header"
-import TarifsCard from '../components/tarifsCard'
+import ServicesCard from '../components/servicesCard'
 import Footer from '../components/footer'
 import {Helmet} from 'react-helmet-async'
 
@@ -8,19 +8,29 @@ const tarif = (site, prix, description, description2, gris,bgColor) => {
   return (
     <>
       <Helmet>
-        <title> Zhamza | Tarifs </title>
-        <meta name='description' content='Tarifs | Un tarif adapté pour un site internet de qualité ! '  />
-        <link rel="canonical" href="/tarifs" />
+        <title> Zhamza | Services </title>
+        <meta name='description' content='Services | Un tarif adapté pour un site internet de qualité ! '  />
+        <link rel="canonical" href="/services" />
       </Helmet>
 
       <Header/>
-      <section className='mb-[4rem]' >
-        <h1 className='font-medium text-[4.8rem] flex justify-center mt-[4rem] ' > Tarifs </h1>
-        <h2 className=' text-[2rem] font-regular flex justify-center mb-[4rem] ' > Un tarif adapté pour un site internet de qualité ! </h2>
-        <TarifsCard site="STANDARD" prix="499" description="POUR UN SITE AVEC La FORMULE LA PLUS SIMPLE " description2="Toutes les fonctionnalités essentielles dont vous avez besoin " bgColor="bg-[#FFF3F1]" bgButton="bg-secondary" textButton="text-[#FFFFFF] " gris="text-[#DDBCBC]" maquette="✓  Charte graphique à partir d'une maquette pré-définie" animation="hover:bg-[#F0BDB3] transition ease-in-out delay-100  hover:text-[#24252D]" />
+      <section >
+      <h1 className='text-[4.8rem] font-medium flex justify-center mt-[5rem] mb-[8rem] '>Mes Services </h1>
 
-        <TarifsCard site="PERSONNALISÉ" prix="699" description="Pour un site en accord avec vos gouts et couleurs" description2="Fonctionnalités avancées pour un contrôle total " bgColor="bg-secondary" bgButton="bg-[#FFFFFF]" textButton="text-[#000000]" textColor="text-[#FFFFFF]" animation=" hover:bg-[#EFEFEF] transition ease-in-out delay-100 "/>
-      </section>
+      <div>
+        <div className=' flex justify-center flex-wrap mx-[9%] '  >
+            <ServicesCard description="WordPress est un logiciel de la famille des CMS. Le CMS WordPress permet à la fois de gagner du temps de développement au niveau de la création de votre site internet et d’y ajouter facilement des pages, WordPress permet donc la création de sites dynamiques." title="Wordpress" bgImage="bg-wordpress lg:bg-wordpress-1024 sm:bg-wordpress-425 " />
+            <ServicesCard description="Le web design est la conception de l'interface web : l’architecture interactionnelle, l’organisation des pages, l’arborescence et la navigation dans un site web" title="Web design" bgImage="bg-webdesignsvg  lg:bg-webdesignsvg-1024 sm:bg-webdesignsvg-425 " />
+            <ServicesCard description="Le référencement naturel, le SEO a pour but d’améliorer votre classement dans les résultats de recherche tel que Google afin d’augmenter le trafic de visiteurs sur votre site web." title="SEO" bgImage="bg-seo  lg:bg-seo-1024 sm:bg-seo-425 " />
+        </div>
+        
+        <div className='flex justify-center flex-wrap mx-[9%] mt-[1%] '  >
+          <ServicesCard description="Compatibilité desktop tablette & application mobile." title="Responsive design" bgImage="bg-responsive  lg:bg-responsive-1024 sm:bg-responsive-425 " />
+          <ServicesCard description="Mise en place d’outils spécifiques telle que calendly, des outils de tracking, outil d’automation et d’autres encore " title="Mise en place d'outils" bgImage="bg-calendly  lg:bg-calendly-1024 sm:bg-calendly-425 " />
+          <ServicesCard description="La maintenance d'un site web consiste à mener un ensemble d'actions qui vont garder votre site en bonne santé et à jour, sur le plan technique mais aussi éditorial. Il s'agit donc de détecter et corriger les problèmes qui peuvent se créer au fur et à mesure que votre site évolue." title="Maintenance site " bgImage="bg-maintenance  lg:bg-maintenance-1024 sm:bg-maintenance-425  " />
+        </div>
+      </div>
+    </section>
       <Footer />
     </>
   )

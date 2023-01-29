@@ -9,8 +9,8 @@ import {
 import Header from "./components/header"
 import Home from "./page/home"
 import Footer from "./components/footer"
-import Tarif from "./page/services"
-import Portfolio from "./page/realisations"
+import Services from "./page/services"
+import Realisations from "./page/realisations"
 import Contact from "./page/contact"
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="/realisations" element={<Portfolio/>} />
-          <Route path="/services" element={<Tarif/>} /> 
+          <Route path="/realisations" element={<Realisations/>} />
+          <Route path="/services" element={<Services/>} /> 
           <Route path="/contact" element={<Contact/>} />
         </Routes>
       </Router>

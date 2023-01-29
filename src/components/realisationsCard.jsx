@@ -1,6 +1,6 @@
 import React from 'react'
 
-const portfolioCard = (props) => {
+const realisationsCard = (props) => {
   return (
     <>
         <div className=' w-[45%] h-[100%] rounded-[10px] sm:w-[100%] sm:mb-[3.6rem] '>
@@ -10,4 +10,4 @@ const portfolioCard = (props) => {
   )
 }
 
-export default portfolioCard
+export default realisationsCard

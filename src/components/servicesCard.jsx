@@ -1,6 +1,6 @@
 import React from 'react'
 
-const homeCard = (props) => {
+const servicesCard = (props) => {
 
   return (
     <>
@@ -15,9 +15,4 @@ const homeCard = (props) => {
   )
 } 
 
-export default homeCard
-
-/*  https://www.wikihow.com/images/thumb/f/fc/Get-the-URL-for-Pictures-Step-1-Version-6.jpg/v4-728px-Get-the-URL-for-Pictures-Step-1-Version-6.jpg.webp */
-
-/* 
-backdrop-blur-[5px] */
+export default servicesCard

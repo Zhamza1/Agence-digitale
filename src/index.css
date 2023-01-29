@@ -1,5 +1,6 @@
 
 @tailwind base;
+
 @tailwind components;
 @tailwind utilities;
 
@@ -19,8 +20,28 @@ html {
 
 body {
     font-family: "Inter", sans-serif;
-    background-color: #F8FAFB;
+    background-color: #FAFAFA;
 }
+
+@layer base {
+    h1 {
+      @apply text-[4.8rem] font-semibold ;
+      
+    }
+    h2 {
+      @apply text-[3.6rem] font-semibold ;
+    }
+    h3 {
+      @apply text-[2.4rem] font-medium ;
+    }
+    h4 {
+      @apply text-[2rem] font-normal ;
+    }
+    p {
+        @apply text-[1.6rem] font-normal ;
+      }
+  }
+
 
 @media only screen and (min-width : 2200px) {
     
