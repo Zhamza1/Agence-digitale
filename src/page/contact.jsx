@@ -3,7 +3,9 @@ import { useState } from 'react'
 import Header from "../components/header"
 import Illu2 from  "../asset/illu2.png" 
 import {Helmet}  from "react-helmet-async"
-
+import LocalisationLogo from "../asset/localisationLogo.png"
+import MailLogo from "../asset/mailLogo.png"
+import MessageLogo from "../asset/messageLogo.png"
 
 const Contact = () => {
   const [isError,setIsError] = useState("")
@@ -72,13 +74,41 @@ const Contact = () => {
           <img className=' w-[100%] ' src={Illu2} alt="illustration d'une personne écrivant un mail" />
         </div>
         
+       
+
       </section> 
-      {/* <Footer css="sm:absolute sm:bottom-0 " /> */}
+
+      <section  >
+        <div className='flex justify-center' >
+          <h2>Contacter notre service commercial</h2>
+        </div>
+        <div className='flex justify-around mt-[5rem] mb-[5rem] mx-[10rem] ' >
+          <article>
+            <figure>
+              <img src={LocalisationLogo} alt="Logo définissant une localisation" />
+              <h3 className='text-center mt-[0.2rem] ' >Paris</h3>
+              <p className='text-center text-[#7D8CA8] font-bold mt-[0.2rem] ' >Localisation</p>
+            </figure>
+          </article>
+          <article>
+            <figure style={{ textAlign: '-webkit-center' }} >
+              <img src={MessageLogo} alt="Logo définissant les messages " />
+              <h3 className='text-center mt-[0.2rem] ' >(+33) 7.67.33.69.79</h3>
+              <p className='text-center text-[#7D8CA8] font-bold mt-[0.2rem] ' >Pour avoir un contact par téléphone</p>
+            </figure>
+          </article>
+          <article>
+            <figure style={{ textAlign: '-webkit-center' }} >
+              <img src={MailLogo} alt="Logo définissant les mails" />
+              <h3 className='text-center mt-[0.2rem] ' >hamza.mahmood@outlook.fr</h3>
+              <p className='text-center text-[#7D8CA8] font-bold mt-[0.2rem] ' >Pour toute question écrite</p>
+            </figure>
+          </article>
+        </div>
+      </section>
+
       </>
   )
 }
 
 export default Contact
-
-  /* 
-  mt-3 w-full appearance-none rounded-xl border-2 border-white bg-transparent py-2 px-2 leading-tight text-white placeholder:italic focus:outline-none focus:border-blue-600 */
