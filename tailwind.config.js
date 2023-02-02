@@ -53,11 +53,17 @@ module.exports = {
         'webdesignsvg-425': "url('./asset/Web-design-425.jpg')",
         'maintenance-425': "url('./asset/Maintenance-425.jpg')",
         'seo-425': "url('./asset/SEO-425.jpg')",
+        'spaceBetween': "url('./asset/space-between.png')",
       },
       fontSize: {
         14: '14px',
       },
       backgroundColor: {
+        'main': '#FCFAFA',
+        'secondary': '#FE856E',
+        'third': '#24252D',
+      },
+      colors: {
         'main': '#FCFAFA',
         'secondary': '#FE856E',
         'third': '#24252D',
