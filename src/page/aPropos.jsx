@@ -1,6 +1,8 @@
 import React from 'react'
 import Illu1 from "../asset/illu1.png"
 import Footer from "../components/footer"
+import Illu3 from "../asset/illu3.png"
+
 
 const aPropos = () => {
   return (
@@ -8,7 +10,7 @@ const aPropos = () => {
   <section>
       <h1 className='flex justify-center mt-[3rem]' > A propos de nous  </h1>
       <div className='flex pt-[4rem] justify-around pb-[8rem] '>
-          <img src={Illu1} alt="Illustration à propos" className='w-[35%] h-[40%] sm:w-[45%] ' />
+          <img src={Illu1} alt="Illustration à propos" className='w-[40%] h-[40%] sm:w-[45%] ' />
         <div className='self-center w-[50%] ' > 
           <h2 className='justify-center flex text-[3.6rem] font-semibold '>Qui sommes-nous</h2>
         
@@ -33,9 +35,8 @@ const aPropos = () => {
         
         </h4>
         </div>
-          <img src={Illu1} alt="Illustration à propos" className='w-[35%] h-[40%] sm:w-[45%] ' />
-        
-      </div>
+          <img src={Illu3} alt="Illustration à propos" className='w-[40%] h-[40%] sm:w-[45%] ' />
+        </div>
 
       </section>
       <Footer/>
