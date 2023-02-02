@@ -1,5 +1,4 @@
 import { useRef,React } from 'react'
-import ServicesCard from '../components/servicesCard'
 import APropos from './aPropos'
 import {
   Link
@@ -10,9 +9,14 @@ import "../components/header.css"
 import Logo from "../asset/Logo.svg"
 import {Helmet} from "react-helmet-async"
 import LogoComponent from '../components/logo';
+import Vector from "../asset/vector.png"
+import Charte from "../asset/charte-graphique.png"
+import CreationLogo from "../asset/creation-logo.png"
+import LogoWebDesign from "../asset/logo-web-design.png"
+import MotionDesign from "../asset/motion-design.png"
+import Photo from "../asset/photo.png"
 
-
-const Home = (name) => {
+const Home = (name,picto,pictoH3,pictoP,alt) => {
 
   const navRef = useRef();
 
@@ -61,11 +65,24 @@ const Home = (name) => {
 
     <section >
       <h1 className=' flex justify-center mt-[8rem] mb-[4rem] '>Transformation digitale </h1>
-      <h3 className='flex justify-center ' >Nous vous accompagnons dans votre transformation digitale avec une expertise <br /> multi-domaines. Nous créons des sites web professionnels, développons votre <br /> présence en ligne et mettons en place des stratégies marketing efficaces. Nous <br /> vous garantissons un suivi et une mise en œuvre sur mesure pour atteindre vos <br /> objectifs commerciaux.</h3>
-      <LogoComponent/>
-    </section>
+      <h3 className='flex justify-center text-center  ' >Nous vous accompagnons dans votre transformation digitale avec une expertise <br /> multi-domaines. Nous créons des sites web professionnels, développons votre <br /> présence en ligne et mettons en place des stratégies marketing efficaces. Nous <br /> vous garantissons un suivi et une mise en œuvre sur mesure pour atteindre vos <br /> objectifs commerciaux.</h3>
+      
+      <div className='flex justify-around mt-[8rem] ' >
+        <LogoComponent picto={Vector} pictoH3="Site Internet" pictoP="Nous créons des sites web professionnels sur mesure en collaboration avec nos clients, avec des services de maintenance pour assurer leur bon fonctionnement à long terme." alt="Logo qui illustre le codage informatique" />
+        <LogoComponent picto={LogoWebDesign} pictoH3="Web Design" pictoP="Notre designer crée des designs uniques et fonctionnels pour votre site web. Nous nous assurons qu'il soit esthétique et facile à utiliser pour vos utilisateurs." alt="Logo qui illustre le web design" />
+        <LogoComponent picto={Charte} pictoH3="Charte graphique" pictoP="Nous créons une charte graphique pour votre entreprise qui reflète votre image de marque pour une présentation cohérente sur tous vos supports de communication."alt="Logo qui illustre les charte graphique que nous proposons" />
+      </div>
+      <div className='flex justify-around mt-[10rem] ' >
+        <LogoComponent picto={CreationLogo} pictoH3="Création de logo" pictoP="Nous offrons des services de création de logo professionnels pour vous aider à créer une image de marque forte et mémorable pour votre entreprise." alt="Logo qui illustre la création de logo"/>
+        <LogoComponent picto={MotionDesign} pictoH3="Motion Design" pictoP="Nous créons des animations vidéo professionnelles pour promouvoir votre entreprise sur internet et les réseaux sociaux." alt="Logo qui illustre le motion design"/>
+        <LogoComponent picto={Photo} pictoH3="Photographie professionnelle" pictoP="Nous proposons des services de photographie pour mettre en valeur vos produits, de vos locaux, de vos employés, etc. pour utiliser sur votre site web, vos réseaux sociaux et vos supports de communication." alt="Logo qui illustre les photos que l'on peut prendre pour vous"/>
+      </div>
 
-    
+      <div className='flex justify-center mt-[9rem] ' >
+       <Link to="/services" > <button className='text-[#FE856E] font-bold text-[2rem] px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D]' >Tous nos services</button></Link>
+      </div> 
+
+    </section>
       <APropos/>
     
 

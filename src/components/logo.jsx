@@ -1,9 +1,19 @@
 import React from 'react'
 
-const logo = () => {
+
+const Logo = (props) => {
   return (
-    <div>logo</div>
+      <>
+      <article>
+        <figure><img className='w-[7rem]' src={`${props.picto}`} alt={`${props.alt}`} /></figure>
+        <h3 className='mt-[1rem]' > {props.pictoH3} </h3>
+        <p className='mt-[1rem] w-[40rem]' > {props.pictoP} </p>
+      </article>
+      
+        
+      </>
+  
   )
 }
 
-export default logo
+export default Logo
