@@ -7,7 +7,7 @@ import Illu3 from "../asset/illu3.png"
 const aPropos = () => {
   return (
     <>
-  <section>
+  <section className="mb-[0rem]" >
       <h1 className='flex justify-center mt-[3rem]' > A propos de nous  </h1>
       <div className='flex pt-[4rem] justify-around pb-[8rem] '>
           <img src={Illu1} alt="Illustration à propos" className='w-[40%] h-[40%] sm:w-[45%] ' />

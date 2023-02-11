@@ -16,6 +16,8 @@ import Design from "./page/webDesign"
 import Montage from "./page/montageVideo"
 import Photographie from "./page/photographie"
 import CreationLogo from "./page/creationLogo"
+import MaintenanceSite from "./page/maintenanceSite";
+
 
 function App() {
   return (
@@ -29,9 +31,10 @@ function App() {
           <Route path="/services/site-internet" element={< Site />} />
           <Route path="/services/web-design" element={< Design />} />
           <Route path="/services/charte-graphique" element={< Charte />} />
-          <Route path="/services/montage-video" element={< Montage />} />
+          <Route path="/services/motion-design" element={< Montage />} />
           <Route path="/services/photographie" element={< Photographie />} />
           <Route path="/services/creation-logo" element={< CreationLogo />} />
+          <Route path="/services/maintenance-site" element={< MaintenanceSite />} />
         </Routes>
       </Router>
     </>

@@ -24,7 +24,7 @@ const Contact = () => {
       </Helmet>
 
     <Header/>
-      <section className='flex mt-[2.5rem] justify-around pb-[4rem] ' >
+      <section className='flex mt-[6rem] justify-around pb-[4rem] ' >
         <div className='w-[45%] md:w-[90%] ' >
         <div className='text-center text-red-500'>
           <p>{isError}</p>
