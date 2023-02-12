@@ -18,20 +18,16 @@ import RealisationsCard from '../components/realisationsCard'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import {Helmet} from 'react-helmet-async'
-import {
-  Link
-} from "react-router-dom";
-import { useState } from 'react'
 
 
 
 const Realisations = (services) => {
 
-  const [selectedCategory, setSelectedCategory] = useState("All");
+ /*  const [selectedCategory, setSelectedCategory] = useState("All");
 
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
-  }
+  } */
   return (
       <>
       <Helmet>

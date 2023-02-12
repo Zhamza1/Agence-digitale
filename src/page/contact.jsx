@@ -85,21 +85,21 @@ const Contact = () => {
         <div className='flex justify-around mt-[5rem] mb-[5rem] mx-[10rem] ' >
           <article>
             <figure>
-              <img src={LocalisationLogo} alt="Logo définissant une localisation" />
+              <img className=' w-[11rem] h-[11rem] ' src={LocalisationLogo} alt="Logo définissant une localisation" />
               <h3 className='text-center mt-[0.2rem] ' >Paris</h3>
               <p className='text-center text-[#7D8CA8] font-bold mt-[0.2rem] ' >Localisation</p>
             </figure>
           </article>
           <article>
             <figure style={{ textAlign: '-webkit-center' }} >
-              <img src={MessageLogo} alt="Logo définissant les messages " />
+              <img className=' w-[11rem] h-[11rem] ' src={MessageLogo} alt="Logo définissant les messages " />
               <h3 className='text-center mt-[0.2rem] ' >(+33) 7.67.33.69.79</h3>
               <p className='text-center text-[#7D8CA8] font-bold mt-[0.2rem] ' >Pour avoir un contact par téléphone</p>
             </figure>
           </article>
           <article>
             <figure style={{ textAlign: '-webkit-center' }} >
-              <img src={MailLogo} alt="Logo définissant les mails" />
+              <img className=' w-[11rem] h-[11rem] ' src={MailLogo} alt="Logo définissant les mails" />
               <h3 className='text-center mt-[0.2rem] ' >hamza.mahmood@outlook.fr</h3>
               <p className='text-center text-[#7D8CA8] font-bold mt-[0.2rem] ' >Pour toute question écrite</p>
             </figure>

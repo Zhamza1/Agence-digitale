@@ -14,7 +14,7 @@ module.exports = {
       'xl': {'max': '1440px'},
       // => @media (max-width: 1279px) { ... }
 
-      'lg': {'max': '1024px'},
+      'lg': {'max': '1050px'},
       // => @media (max-width: 1023px) { ... }
 
       'md': {'max': '768px'},
@@ -48,6 +48,7 @@ module.exports = {
         'wordpress-425': "url('./asset/Wordpress-425.jpg')",
         'webdesignsvg-425': "url('./asset/Web-design-425.jpg')",
         'maintenance-425': "url('./asset/Maintenance-425.jpg')",
+        'spaceBetween-1024': "url('./asset/space-between-1024.png')",
         'spaceBetween': "url('./asset/space-between.png')",
         'spaceBetween-2560': "url('./asset/space-between-2560.png')",
       },
