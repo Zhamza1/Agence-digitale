@@ -45,24 +45,24 @@ const Realisations = (services) => {
         <h1 className=' mt-[8rem] flex justify-center ' >Réalisations </h1>
         <h4 className='flex justify-center text-center ' >Voici un aperçu des projets sur lesquels nous avons travaillé avec succès. Elle montre notre expertise et notre <br /> capacité à répondre aux besoins spécifiques de nos clients, en mettant en avant les projets les plus récents et <br /> les plus pertinents.</h4>
     
-        <div className='flex justify-around mt-[6.4rem] mx-[13.2rem] sm:flex-col flex-wrap '>
+        <div className=' flex justify-around mt-[6.4rem]  sm:flex-col  '>
           <RealisationsCard link="https://www.group-edt.fr/" alt="Image Site EDT" img={EDT} />
           <RealisationsCard link="https://weexa.com/fr/accueil/" alt="Image Site Weexa" img={Weexa}  />
           <RealisationsCard link="https://xn--lumiresdeparis-yjb.fr/" alt="Image Site Lumieres de paris" img={Lumieres} />
         </div>
-        <div className='flex justify-around mt-[1.7rem] mx-[13.2rem] sm:flex-col flex-wrap ' >
+        <div className='flex justify-around mt-[1.7rem] sm:flex-col  ' >
           <RealisationsCard link="https://shoppy1.netlify.app/" alt="Image Site Shoppy" img={Shoppy} />
           <RealisationsCard link="https://www.youtube.com/watch?v=cCuqr_BOEEc&ab_channel=WEEXA" alt="Image motion design loi de finances" img={LoiDeFinances}  data-category="motion-design" />
           <RealisationsCard link="https://www.behance.net/gallery/160851993/Loop-Animation" alt="Image Motion design Loop animation" img={Loop}  />
         </div>
-        <div className='flex justify-around mt-[1.7rem] mx-[13.2rem] sm:flex-col flex-wrap ' >
+        <div className='flex justify-around mt-[1.7rem]  sm:flex-col  ' >
           <RealisationsCard link="https://www.behance.net/gallery/161172421/Projet-McDonalds" alt="Image graphic design Mcdo" img={Mcdo} />
           <RealisationsCard link="https://www.behance.net/gallery/162539439/VEUVE-CLICQUOT" alt="Image graphic design Veuve Cliquot " img={VeuveCliquot} />
           <RealisationsCard link="http://www.saricharaf.fr/identite-visuelle/" alt="Image graphic design graphic designer" img={GraphicDesigner} />
           
         </div>
 
-        <div className='flex justify-around mt-[1.7rem] mx-[13.2rem] sm:flex-col flex-wrap mb-[10rem] ' >
+        <div className='  flex justify-around mt-[1.7rem] sm:flex-col  mb-[10rem] ' >
           <RealisationsCard link="http://www.saricharaf.fr/identite-visuelle/#twocans" alt="Image design Two-cans" img={TwoCans}  />
           <RealisationsCard link="http://www.saricharaf.fr/graphisme_02/#vinyle" alt="Image design Vinyle" img={Vinyle}  />
           <RealisationsCard style={{ display: 'none' }}  link="https://shoppy1.netlify.app/" alt="Image Site Shoppy" img={Brikabrak}  />

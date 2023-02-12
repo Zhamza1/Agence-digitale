@@ -81,7 +81,7 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
       <div className='flex justify-center mt-[8rem] mb-[7rem] ' >
        <button className='text-[#FE856E] font-bold text-[2rem] px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] ' ><Link to="/services" > Tous nos services</Link></button>
       </div> 
-      <div className='xl:bg-spaceBetween w-[100%] h-[100%] bg-no-repeat	pt-[6rem] 2xl:bg-spaceBetween-2560 rounded-tr-[100px] rounded-bl-[100px] ' >
+      <div className='xl:bg-spaceBetween w-[100%] h-[100%] bg-no-repeat	pt-[6rem] bg-spaceBetween-2560 rounded-tr-[10rem] rounded-bl-[10rem] ' >
         <h2 className=' text-main text-center mt-[6rem] ' >Pour en savoir plus sur notre équipe et nos <br /> compétences, n'hésitez pas à nous <br /> contacter pour discuter de votre projet.</h2>
          <div className='flex justify-center mt-[4rem]  ' > <button className=' flex justify-center text-[#FE856E] font-bold text-[2rem] px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] mb-[10rem] bg-main'><Link to="/contact">Contact</Link></button></div>
       </div>
