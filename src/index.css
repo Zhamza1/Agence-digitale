@@ -25,20 +25,20 @@ body {
 
 @layer base {
     h1 {
-      @apply text-[4.8rem] font-semibold ;
+      @apply text-[48px] font-semibold ;
       
     }
     h2 {
-      @apply text-[3.6rem] font-semibold ;
+      @apply text-[36px] font-semibold ;
     }
     h3 {
-      @apply text-[2.4rem] font-medium ;
+      @apply text-[24px] font-normal ;
     }
     h4 {
-      @apply text-[2rem] font-normal ;
+      @apply text-[20px] font-normal ;
     }
     p {
-        @apply text-[1.6rem] font-normal ;
+        @apply text-[16px] font-normal ;
       }
   }
 
