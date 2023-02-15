@@ -35,7 +35,7 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
     <section className=' bg-header2 lg:bg-header1024 sm:bg-header425 bg-no-repeat 2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] lg:pb-[4rem]'>
        <header className='pt-[2.8rem] pb-[3.4rem] md:flex md:flex-row-reverse '>
         <nav className='z-[100000]' ref={navRef} > 
-          <ul className='flex justify-around px-[15rem] text-white items-center font-regular 2xl:text-[2.4rem] xl:text-[24px] md:flex-col md:text-[40px] '>
+          <ul className='flex justify-around px-[15rem] text-white items-center font-regular md:flex-col text-[2.4rem] '>
             <Link to="/" className="w-[8rem] h-[10rem] " > <img src={Logo} alt="logo du site zhamza" /> </Link>
             <Link to="/realisations" ><li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 uppercase '>Réalisations</li> </Link>
             <Link to="/services"> <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >SERVICES</li></Link>
@@ -53,12 +53,12 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
 			  </button>
       </header>
       <div className='text-center' >
-        <h1 className='2xl:text-[4.8rem]  xl:text-[48px] ' >Faites appel à nous pour donner vie à votre <br /> projet et augmenter votre visibilité en ligne.</h1>
-        <h3 className=' 2xl:text-[2.4rem] xl:text-[24px] font-medium' > Grâce à notre équipe expérimentée et passionnée, nous aidons nos clients à atteindre leurs <br /> objectifs en matière de marketing numérique.
+        <h1 className=' ' >Faites appel à nous pour donner vie à votre <br /> projet et augmenter votre visibilité en ligne.</h1>
+        <h3 className=' font-medium' > Grâce à notre équipe expérimentée et passionnée, nous aidons nos clients à atteindre leurs <br /> objectifs en matière de marketing numérique.
 
 </h3>
 
-        <div className='pt-[3rem]' ><Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-[#FFFFFF] font-medium px-[4rem] py-[0.5rem] rounded-full 2xl:text-[2rem] xl:text-[20px] hover:bg-[#EFEFEF]  transition ease-in-out delay-100 ' >Contact</button> </Link> </div>
+        <div className='pt-[3rem]' ><Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-[#FFFFFF] font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 ' >Contact</button> </Link> </div>
         </div>
         
     </section>
@@ -75,15 +75,15 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
       <div className='flex justify-around mt-[10rem] ' >
         <LogoComponent picto={CreationLogo} pictoH3="Création de logo" pictoP="Nous offrons des services de création de logo professionnels pour vous aider à créer une image de marque forte et mémorable pour votre entreprise." alt="Logo qui illustre la création de logo"/>
         <LogoComponent picto={MotionDesign} pictoH3="Motion Design" pictoP="Nous créons des animations vidéo professionnelles pour promouvoir votre entreprise sur internet et les réseaux sociaux." alt="Logo qui illustre le motion design"/>
-        <LogoComponent picto={Photo} pictoH3="Photographie professionnelle" pictoP="Nous proposons des services de photographie pour mettre en valeur vos produits, de vos locaux, de vos employés, etc. pour utiliser sur votre site web, vos réseaux sociaux et vos supports de communication." alt="Logo qui illustre les photos que l'on peut prendre pour vous"/>
+        <LogoComponent picto={Photo} pictoH3="Photographie" pictoP="Nous proposons des services de photographie pour mettre en valeur vos produits, de vos locaux, de vos employés, etc. pour utiliser sur votre site web, vos réseaux sociaux et vos supports de communication." alt="Logo qui illustre les photos que l'on peut prendre pour vous"/>
       </div>
 
       <div className='flex justify-center mt-[8rem] mb-[7rem] ' >
-       <button className='text-[#FE856E] font-bold 2xl:text-[2rem] xl:text-[20px] px-[20px] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] ' ><Link to="/services" > Tous nos services</Link></button>
+       <button className='text-[#FE856E] font-bold px-[20px] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] text-[2.0rem]  ' ><Link to="/services" > Tous nos services</Link></button>
       </div> 
       <div className=' lg:bg-spaceBetween-1024 xl:bg-spaceBetween w-[100%] h-[100%] bg-no-repeat	pt-[6rem] bg-spaceBetween-2560 rounded-tr-[10rem] rounded-bl-[10rem] ' >
-        <h2 className=' text-main text-center mt-[6rem] ' >Pour en savoir plus sur notre équipe et nos <br /> compétences, n'hésitez pas à nous <br /> contacter pour discuter de votre projet.</h2>
-         <div className='flex justify-center mt-[4rem]  ' > <button className=' flex justify-center text-[#FE856E] font-bold text-[20px] px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] mb-[10rem] bg-main'><Link to="/contact">Contact</Link></button></div>
+        <h2 className=' text-main text-center mt-[2rem] ' >Pour en savoir plus sur notre équipe et nos <br /> compétences, n'hésitez pas à nous <br /> contacter pour discuter de votre projet.</h2>
+         <div className='flex justify-center mt-[4rem]  ' > <button className=' flex justify-center text-[#FE856E] font-bold px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] mb-[10rem] bg-main text-[2.0rem] '><Link to="/contact">Contact</Link></button></div>
       </div>
 
     </section>

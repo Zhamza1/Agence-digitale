@@ -37,14 +37,14 @@ const Contact = () => {
             <div className='flex w-[100%] justify-between '>
 
               <div className='flex-col flex w-[30%] ' >
-                <label className='block text-[#ADA3A3] font-regular text-[16px] ' htmlFor="">Name :</label>
+                <label className='block text-[#ADA3A3] ' htmlFor="">Name :</label>
                 <input type="text" name='name' className=' mt-[0.75rem] border-[#998C8C] py-[0.25rem]  px-[0.5rem] text-[000000] border-x-0 border-t-0 focus:outline-none focus:border-blue-600 border-[0.3rem] bg-[#F8FAFB] text-[1.6rem] font-regular  ' 
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   />
               </div>
               <div className='flex-col flex w-[60%] ' >
-                <label className='block text-[#ADA3A3] font-regular text-[16px] ' htmlFor="">Email :</label>
+                <label className='block text-[#ADA3A3] ' htmlFor="">Email :</label>
                 <input name='email' type="email" className=' mt-3 border-[#998C8C] py-1  px-2 text-[000000] border-x-0 border-t-0 focus:outline-none focus:border-blue-600 border-[0.3rem] bg-[#F8FAFB] text-[1.6rem] font-regular ' 
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -52,14 +52,14 @@ const Contact = () => {
               </div>
             </div>
             <div className='mt-7' >
-              <label className='text-[#ADA3A3] font-regular text-[16px] ' htmlFor="">Sujet :</label>
+              <label className='text-[#ADA3A3] ' htmlFor="">Sujet :</label>
               <input name='subject' type="text" className=' w-full mt-3 border-[#998C8C] py-1 px-2 text-[000000] border-x-0 border-t-0 focus:outline-none focus:border-blue-600 border-[0.3rem] bg-[#F8FAFB] text-[1.6rem] font-regular '  
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
               />
             </div>
             <div className='mt-7' >
-              <label className='text-[#ADA3A3] font-regular text-[16px] ' htmlFor="">Message :</label>
+              <label className='text-[#ADA3A3] ' htmlFor="">Message :</label>
               <textarea name='message' className=' w-full mt-3 border-[#998C8C] py-1 px-2 text-[#000000] border-x-0 border-t-0 focus:outline-none focus:border-blue-600 border-[0.3rem] bg-[#F8FAFB] text-[1.6rem] font-regular  ' 
               value={message}
               onChange={(e) => setMessage(e.target.value)}

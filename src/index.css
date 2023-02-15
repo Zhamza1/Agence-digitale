@@ -24,21 +24,30 @@ body {
 }
 
 @layer base {
+
+    label {
+        @apply text-[1.6rem] font-semibold;
+    }
+
+    button {
+        @appply text-[2rem] ;
+    }
+
     h1 {
-      @apply text-[48px] font-semibold ;
+      @apply text-[4.8rem] font-semibold ;
       
     }
     h2 {
-      @apply text-[36px] font-semibold ;
+      @apply text-[3.6rem] font-semibold ;
     }
     h3 {
-      @apply text-[24px] font-normal ;
+      @apply text-[2.4rem] font-normal ;
     }
     h4 {
-      @apply text-[20px] font-normal ;
+      @apply text-[2.0rem] font-normal ;
     }
     p {
-        @apply text-[16px] font-normal ;
+        @apply text-[1.6rem] font-normal ;
       }
   }
 
@@ -63,6 +72,34 @@ body {
         html {
             font-size: 7px;
         }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 32px;
+          }
+          h3 {
+            font-size: 20px;
+          }
+          h4 {
+            font-size: 18px ;
+          }
+          p {
+              font-size: 14px ;
+            }
+        
+        label {
+                font-size: 14px ;
+            }
+        
+        button {
+                font-size: 18px ;
+            }
+
+        
+
         }
 
         @media only screen and (max-width : 768px) {
