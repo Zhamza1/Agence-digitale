@@ -94,9 +94,7 @@ body {
                 font-size: 14px ;
             }
         
-        button {
-                font-size: 18px ;
-            }
+        
 
         
 
@@ -107,6 +105,11 @@ body {
             html {
                 font-size: 5px;
             }
+
+            button {
+                font-size: 14px ;
+            }
+
             }
 
             @media only screen and (max-width : 425px) {

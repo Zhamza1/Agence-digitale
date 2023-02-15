@@ -24,7 +24,7 @@ const Header = () => {
       <header className=" pt-[2.8rem] bg-header2 w-[100%] md:py-[1rem] md:flex md:flex-row-reverse " >
         <nav className='z-[100000]' ref={navRef} >
           <ul className='flex justify-around px-[15rem] text-white items-center text-[24px] md:flex-col md:text-[40px] text-[2.4rem]  '  >
-            <NavLink  to="/" className='w-[8rem] h-[10rem] ' > <img src={Logo} alt="logo du site zhamza" /> </NavLink>
+            <NavLink  to="/" className='w-[8rem] h-[10rem] md:w-[12rem] md:h-[15rem] ' > <img src={Logo} alt="logo du site zhamza" /> </NavLink>
               <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 uppercase '  > <NavLink to="/realisations" className={({ isActive }) => isActive ? activeLink : undefined}> Réalisations  </NavLink></li> 
               <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 '  > <NavLink to="/services" className={({ isActive }) => isActive ? activeLink : undefined}>  SERVICES </NavLink> </li>
               <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 '  > <NavLink to="/contact" className={({ isActive }) => isActive ? activeLink : undefined}>CONTACT </NavLink> </li>
