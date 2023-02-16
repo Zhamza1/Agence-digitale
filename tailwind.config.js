@@ -11,16 +11,13 @@ module.exports = {
       '2xl': {'max': '2500px'},
       // => @media (max-width: 1535px) { ... }
 
-      'xl': {'max': '1440px'},
+      'xl': {'max': '1500px'},
       // => @media (max-width: 1279px) { ... }
 
       'lg': {'max': '1050px'},
       // => @media (max-width: 1023px) { ... }
 
       'md': {'max': '768px'},
-      // => @media (max-width: 767px) { ... }
-
-      'md2': {'min': '768px'},
       // => @media (max-width: 767px) { ... }
 
       'sm': {'max': '425px'},

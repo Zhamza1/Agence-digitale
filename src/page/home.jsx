@@ -16,6 +16,8 @@ import LogoWebDesign from "../asset/logo-web-design.png"
 import MotionDesign from "../asset/motion-design.png"
 import Photo from "../asset/photo.png"
 
+
+
 const Home = (name,picto,pictoH3,pictoP,alt) => {
 
   const navRef = useRef();
@@ -35,7 +37,7 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
     <section className=' bg-header2 lg:bg-header1024 sm:bg-header425 bg-no-repeat 2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] lg:pb-[4rem]'>
        <header className='pt-[2.8rem] pb-[3.4rem] md:flex md:flex-row-reverse '>
         <nav className='z-[100000]' ref={navRef} > 
-          <ul className='flex justify-around px-[15rem] text-white items-center font-regular md:flex-col text-[2.4rem] md:text-[40px] '>
+          <ul className='flex justify-around px-[15rem] text-white items-center font-regular md:flex-col text-[2.4rem] lg:text-[20px] md:text-[40px] '>
             <Link to="/" className="w-[8rem] h-[10rem] md:w-[12rem] md:h-[15rem] " > <img src={Logo} alt="logo du site zhamza" /> </Link>
             <Link to="/realisations" ><li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 uppercase '>Réalisations</li> </Link>
             <Link to="/services"> <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >SERVICES</li></Link>
@@ -64,8 +66,8 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
     </section>
 
     <section >
-      <h1 className=' flex justify-center mt-[8rem] mb-[4rem] '>Transformation digitale </h1>
-      <h3 className='flex justify-center text-center  ' >Nous vous accompagnons dans votre transformation digitale avec une expertise <br /> multi-domaines. Nous créons des sites web professionnels, développons votre <br /> présence en ligne et mettons en place des stratégies marketing efficaces. Nous <br /> vous garantissons un suivi et une mise en œuvre sur mesure pour atteindre vos <br /> objectifs commerciaux.</h3>
+      <h1 className=' flex justify-center mt-[8rem] mb-[3rem] '>Transformation digitale </h1>
+      <div className='flex justify-center  ' ><h3 className='w-[96rem] text-center' >Nous vous accompagnons dans votre transformation digitale avec une expertise multi-domaines. Nous créons des sites web professionnels, développons votre présence en ligne et mettons en place des stratégies marketing efficaces. Nous vous garantissons un suivi et une mise en œuvre sur mesure pour atteindre vos objectifs commerciaux.</h3></div>
       
       <div className='flex justify-around mt-[8rem] flex-wrap' >
         <LogoComponent style="md:w-[45%] w-[30%]" picto={Vector} pictoH3="Site Internet" pictoP="Nous créons des sites web professionnels sur mesure en collaboration avec nos clients, avec des services de maintenance pour assurer leur bon fonctionnement à long terme." alt="Logo qui illustre le codage informatique" />
@@ -80,7 +82,7 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
       <div className='flex justify-center mt-[8rem] mb-[7rem] ' >
        <button className='text-[#FE856E] font-bold px-[20px] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] text-[2.0rem] md:text-[14px] ' ><Link to="/services" > Tous nos services</Link></button>
       </div> 
-      <div className=' lg:bg-spaceBetween-1024 xl:bg-spaceBetween w-[100%] h-[100%] bg-no-repeat	pt-[6rem] bg-spaceBetween-2560 rounded-tr-[10rem] rounded-bl-[10rem] ' >
+      <div style={{backgroundColor: 'rgb(47,48,68)',backgroundImage: 'url("../asset/space-between.png")',backgroundPosition: 'top left'}} className=' w-[100%] h-[41rem] bg-no-repeat	pt-[6rem] rounded-tr-[10rem] rounded-bl-[10rem] ' >
         <h2 className=' text-main text-center mt-[2rem] ' >Pour en savoir plus sur notre équipe et nos <br /> compétences, n'hésitez pas à nous <br /> contacter pour discuter de votre projet.</h2>
          <div className='flex justify-center mt-[4rem]  ' > <button className=' flex justify-center text-[#FE856E] font-bold px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] mb-[10rem] bg-main text-[2.0rem] md:text-[14px] '><Link to="/contact">Contact</Link></button></div>
       </div>
@@ -94,3 +96,5 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
 }
 
 export default Home
+
+/* bg-spaceBetween-2560 lg:bg-spaceBetween-1024 xl:bg-spaceBetween */ 

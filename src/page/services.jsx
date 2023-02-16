@@ -17,24 +17,22 @@ const tarif = (site, prix, description, description2, gris,bgColor) => {
       <Header/>
       <section className=' mt-[8rem] mb-[10rem]' >
       <h1 className=' flex justify-center '>Nos Services </h1>
-      <h4 className='flex justify-center mb-[8rem] text-center mx-[13%] ' >Services sur mesure pour nos clients Nous comprenons que chaque client a des besoins uniques et c'est pour cela que nous nous adaptons à chaque client en proposant des services personnalisés pour répondre à leurs besoins spécifiques.</h4>
+      <h4 className='flex justify-center mb-[8rem] text-center mx-[13%] ' >Services sur mesure pour nos clients nous comprenons que chaque client a des besoins uniques et c'est pour cela que nous nous adaptons à chaque client en proposant des services personnalisés pour répondre à leurs besoins spécifiques.</h4>
 
 
       <div>
         <div className=' flex justify-center flex-wrap  '  >
-            <ServicesCard title="Site internet" bgImage="bg-wordpress lg:bg-wordpress-1024 sm:bg-wordpress-425 " link="/services/site-internet" /> 
-            <ServicesCard title="Web design" bgImage="bg-webdesignsvg  lg:bg-webdesignsvg-1024 sm:bg-webdesignsvg-425 " link="/services/web-design"  />
-            <ServicesCard title="Montage vidéo" bgImage="bg-motionDesign  lg:bg--1024 sm:bg--425 " link="/services/motion-design" />
-            <ServicesCard title="Photographie" bgImage="bg-photographie  lg:bg--1024 sm:bg--425 " link="/services/photographie" />
-        </div>
-        
-        <div className='flex justify-center flex-wrap mt-[1%] '  >
-          <ServicesCard title="Charte graphique" bgImage="bg-charteGraphique  lg:bg--1024 sm:bg--425 " link="/services/charte-graphique" />
-          <ServicesCard title="Création de logo" bgImage="bg-creationLogo  lg:bg--1024 sm:bg--425 " link="/services/creation-logo"/>
-          <ServicesCard title="Maintenance site " bgImage="bg-maintenance  lg:bg-maintenance-1024 sm:bg-maintenance-425  " link="/services/maintenance-site" />
+            <ServicesCard style="cursor-pointer font-medium text-[3.6rem] text-[36px] w-[34rem] h-[59rem] rounded-[1rem] mx-[3rem] xl:w-[20%] xl:h-[70rem] xl:mx-[1rem] md:w-[80%] md:h-[150rem] md:mt-[4rem] bg-no-repeat bg-center bg-wordpress lg:bg-wordpress-1024 sm:bg-wordpress-425" title="Site internet" link="/services/site-internet" /> 
+            <ServicesCard style="cursor-pointer font-medium text-[3.6rem] text-[36px] w-[34rem] h-[59rem] rounded-[1rem] mx-[3rem] xl:w-[20%] xl:h-[70rem] xl:mx-[1rem] md:w-[80%] md:h-[150rem] md:mt-[4rem] bg-no-repeat bg-center bg-webdesignsvg  lg:bg-webdesignsvg-1024 sm:bg-webdesignsvg-425" title="Web design" link="/services/web-design"  />
+            <ServicesCard style="cursor-pointer font-medium text-[3.6rem] text-[36px] w-[34rem] h-[59rem] rounded-[1rem] mx-[3rem] xl:w-[20%] xl:h-[70rem] xl:mx-[1rem] md:w-[80%] md:h-[150rem] md:mt-[4rem] bg-no-repeat bg-center bg-motionDesign  lg:bg--1024 sm:bg--425" title="Montage vidéo" link="/services/motion-design" />
+            <ServicesCard style="cursor-pointer font-medium text-[3.6rem] text-[36px] w-[34rem] h-[59rem] rounded-[1rem] mx-[3rem] xl:w-[20%] xl:h-[70rem] xl:mx-[1rem] md:w-[80%] md:h-[150rem] md:mt-[4rem] bg-no-repeat bg-center bg-photographie  lg:bg--1024 sm:bg--425 " title="Photographie" link="/services/photographie" />
+       
+            <ServicesCard style="cursor-pointer font-medium text-[3.6rem] text-[36px] w-[34rem] h-[59rem] rounded-[1rem] mx-[3rem] xl:w-[20%] xl:h-[70rem] xl:mx-[1rem] md:w-[80%] md:h-[150rem] md:mt-[4rem] bg-no-repeat bg-center bg-charteGraphique  lg:bg--1024 sm:bg--425  mt-[2rem] " title="Charte graphique" link="/services/charte-graphique" />
+            <ServicesCard style="cursor-pointer font-medium text-[3.6rem] text-[36px] w-[34rem] h-[59rem] rounded-[1rem] mx-[3rem] xl:w-[20%] xl:h-[70rem] xl:mx-[1rem] md:w-[80%] md:h-[150rem] md:mt-[4rem] bg-no-repeat bg-center bg-creationLogo  lg:bg--1024 sm:bg--425  mt-[2rem] " title="Création de logo" link="/services/creation-logo"/>
+            <ServicesCard style="cursor-pointer font-medium text-[3.6rem] text-[36px] w-[34rem] h-[59rem] rounded-[1rem] mx-[3rem] xl:w-[20%] xl:h-[70rem] xl:mx-[1rem] md:w-[80%] md:h-[150rem] md:mt-[4rem] bg-no-repeat bg-center bg-maintenance  lg:bg-maintenance-1024 sm:bg-maintenance-425 mt-[2rem] " title="Maintenance site " link="/services/maintenance-site" />
 
-          <div className={` w-[34rem] h-[59rem] rounded-[1rem] xl:w-[20%] xl:h-[70rem] mx-4 bg-no-repeat bg-center  `}> 
-          </div>
+            <div className={` w-[34rem] h-[59rem] xl:w-[20%] xl:h-[70rem] mx-[3rem] xl:mx-[1rem] md:hidden  `}> 
+            </div>
         </div>
       </div>
     </section>
