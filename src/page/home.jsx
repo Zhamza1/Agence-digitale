@@ -54,20 +54,21 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
 				  <FaBars />
 			  </button>
       </header>
-      <div className='text-center' >
-        <h1 className=' ' >Faites appel à nous pour donner vie à votre <br /> projet et augmenter votre visibilité en ligne.</h1>
-        <h3 className=' font-medium' > Grâce à notre équipe expérimentée et passionnée, nous aidons nos clients à atteindre leurs <br /> objectifs en matière de marketing numérique.
+      <div  >
+        <div className='flex justify-center' > <h1 className=' w-[103rem] ' >Faites appel à nous pour donner vie à votre projet et augmenter votre visibilité en ligne.</h1> </div> 
+        <div className='flex justify-center' > <h3 className=' font-medium w-[103rem] ' > Grâce à notre équipe expérimentée et passionnée, nous aidons nos clients à atteindre leurs objectifs en matière de marketing numérique. </h3></div> 
 
-</h3>
-
-        <div className='pt-[3rem]' ><Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-[#FFFFFF] font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[14px] ' >Contact</button> </Link> </div>
+        <div className='pt-[3rem] text-center ' >
+          <Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-main font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[14px] ' >Contact</button> </Link> 
+          <Link to="/services" > <button type='submit' className=' ml-[2rem] text-[#FFFFFF] bg-[#FF7167] font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[14px] border-[2px] border-[main] ' >Learn More</button> </Link>        
+        </div>
         </div>
         
     </section>
 
     <section >
       <h1 className=' flex justify-center mt-[8rem] mb-[3rem] '>Transformation digitale </h1>
-      <div className='flex justify-center  ' ><h3 className='w-[96rem] text-center' >Nous vous accompagnons dans votre transformation digitale avec une expertise multi-domaines. Nous créons des sites web professionnels, développons votre présence en ligne et mettons en place des stratégies marketing efficaces. Nous vous garantissons un suivi et une mise en œuvre sur mesure pour atteindre vos objectifs commerciaux.</h3></div>
+      <div className='flex justify-center  ' ><h3 className='w-[96rem] text-center md:w-[117rem] ' >Nous vous accompagnons dans votre transformation digitale avec une expertise multi-domaines. Nous créons des sites web professionnels, développons votre présence en ligne et mettons en place des stratégies marketing efficaces. Nous vous garantissons un suivi et une mise en œuvre sur mesure pour atteindre vos objectifs commerciaux.</h3></div>
       
       <div className='flex justify-around mt-[8rem] flex-wrap' >
         <LogoComponent style="md:w-[45%] w-[30%]" picto={Vector} pictoH3="Site Internet" pictoP="Nous créons des sites web professionnels sur mesure en collaboration avec nos clients, avec des services de maintenance pour assurer leur bon fonctionnement à long terme." alt="Logo qui illustre le codage informatique" />
@@ -82,9 +83,9 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
       <div className='flex justify-center mt-[8rem] mb-[7rem] ' >
        <button className='text-[#FE856E] font-bold px-[20px] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] text-[2.0rem] md:text-[14px] ' ><Link to="/services" > Tous nos services</Link></button>
       </div> 
-      <div style={{backgroundColor: 'rgb(47,48,68)',backgroundImage: 'url("../asset/space-between.png")',backgroundPosition: 'top left'}} className=' w-[100%] h-[41rem] bg-no-repeat	pt-[6rem] rounded-tr-[10rem] rounded-bl-[10rem] ' >
-        <h2 className=' text-main text-center mt-[2rem] ' >Pour en savoir plus sur notre équipe et nos <br /> compétences, n'hésitez pas à nous <br /> contacter pour discuter de votre projet.</h2>
-         <div className='flex justify-center mt-[4rem]  ' > <button className=' flex justify-center text-[#FE856E] font-bold px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] mb-[10rem] bg-main text-[2.0rem] md:text-[14px] '><Link to="/contact">Contact</Link></button></div>
+      <div className=' bg-spaceBetween w-[100%] md:h-[56rem] rounded-tr-[10rem] rounded-bl-[10rem] ' >
+        <div className='flex justify-center' > <h2 className=' md:text-[24px] w-[84rem] text-main mt-[8rem] ' >Pour en savoir plus sur notre équipe et nos compétences, n'hésitez pas à nous contacter pour discuter de votre projet. </h2></div>
+        <div className='flex justify-center mt-[4rem]  ' > <button className=' flex justify-center text-[#FE856E] font-bold px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] mb-[10rem] bg-main text-[2.0rem] md:text-[14px] '><Link to="/contact">Contact</Link></button></div>
       </div>
 
     </section>
@@ -98,3 +99,4 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
 export default Home
 
 /* bg-spaceBetween-2560 lg:bg-spaceBetween-1024 xl:bg-spaceBetween */ 
+/* style={{backgroundColor: 'rgb(47,48,68)',backgroundImage: 'url("../asset/space-between.png")',backgroundPosition: 'top left'}}  */

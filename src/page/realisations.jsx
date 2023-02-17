@@ -39,7 +39,7 @@ const Realisations = (services) => {
       <section>
       <Header/>
         <h1 className=' mt-[8rem] flex justify-center ' >Réalisations </h1>
-        <h4 className='flex justify-center text-center ' >Voici un aperçu des projets sur lesquels nous avons travaillé avec succès. Elle montre notre expertise et notre <br /> capacité à répondre aux besoins spécifiques de nos clients, en mettant en avant les projets les plus récents et <br /> les plus pertinents.</h4>
+         <div className='justify-center flex ' > <h3 className='flex justify-center text-center w-[105rem] ' >Voici un aperçu des projets sur lesquels nous avons travaillé avec succès. Elle montre notre expertise et notre capacité à répondre aux besoins spécifiques de nos clients, en mettant en avant les projets les plus récents et les plus pertinents.</h3> </div> 
     
         <div className=' flex justify-around mt-[6.4rem]  sm:flex-col mb-[10rem] flex-wrap '>
           <RealisationsCard style='xl:w-[30%] md:w-[45%]  sm:w-[80%] sm:mx-[10%] sm:mb-[3.6rem] ' link="https://www.group-edt.fr/" alt="Image Site EDT" img={EDT} />

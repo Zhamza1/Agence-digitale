@@ -20,27 +20,27 @@ const footer = (props) => {
         </div>
     
         <div>
-          <p className='text-[2rem] font-normal ' >Coordonnées</p>
+          <h4 className=' font-normal ' >Coordonnées</h4>
           
-          <p className='pt-[1rem] font-light text-[1.6rem]' >Paris, France
+          <p className='pt-[1rem] font-light' >Paris, France
           </p>
-          <a href="tel:+33 7 67 33 69 79"><p className='pt-[1rem] font-light text-[1.6rem] ' >(+33) 7.67.33.69.79</p></a>
+          <a href="tel:+33 7 67 33 69 79"><p className='pt-[1rem] font-light ' >(+33) 7.67.33.69.79</p></a>
 
-          <a href="mailto:hamza.mahmood@outlook.fr"><p className='pt-[1rem] font-light text-[1.6rem]' >hamza.mahmood@outlook.fr</p> </a>
+          <a href="mailto:hamza.mahmood@outlook.fr"><p className='pt-[1rem] font-light ' >hamza.mahmood@outlook.fr</p> </a>
         </div>
 
         <div>
-          <p className='text-[2rem] font-normal '>Connect</p>
+          <h4 className=' font-normal '>Connect</h4>
           <div className='flex pt-[2rem] ' >
-            <a href="https://www.linkedin.com/in/hamza-mahmood-b19128217/" target="_blank" ><AiFillLinkedin className='w-[3rem] h-[3rem] cursor-pointer' /></a>
-            <a href="tel:+33 7 67 33 69 79" target="_blank" ><AiOutlineWhatsApp  className='w-[3rem] h-[3rem] ml-[1.5rem] cursor-pointer ' /></a>
+            <a href="https://www.linkedin.com/in/hamza-mahmood-b19128217/" target="_blank" ><AiFillLinkedin className='w-[4rem] h-[4rem] cursor-pointer' /></a>
+            <a href="tel:+33 7 67 33 69 79" target="_blank" ><AiOutlineWhatsApp  className='w-[4rem] h-[4rem] ml-[1.5rem] cursor-pointer ' /></a>
           </div>
-          <Link to="/contact" > <p className='pt-[2rem] font-light text-[1.6rem]'>Contact</p> </Link>
-          <p className='pt-[1rem] font-light cursor-pointer text-[1.6rem] ' >Mentions légales </p>
+          <Link to="/contact" > <p className='pt-[2rem] font-light'>Contact</p> </Link>
+          <p className='pt-[1rem] font-light cursor-pointer ' >Mentions légales </p>
           </div>
         </section>
 
-        <div className='text-center pt-[2rem] font-light text-[1.2rem]  ' >Copyright © 2022-{year} HAMZA MAHMOOD - Développeur WEB</div>  
+        <div className='text-center pt-[2rem] font-light text-[12px]  ' >Copyright © 2022-{year} HAMZA MAHMOOD - Développeur WEB</div>  
       </footer>
     </>
   )
