@@ -13,7 +13,7 @@ const footer = (props) => {
 
   return (
     <>
-      <footer className={` bg-third text-white w-full pb-[1.2rem] rounded-tr-[10rem] pt-[8rem] ${props.css} `} /* style="position: absolute;bottom: 0;" */ >
+      <footer className={` bg-third text-white w-full pb-[1.2rem] rounded-tr-[10rem] pt-[8rem] ${props.css} `}>
         <section className='flex px-[0.5rem] justify-around pb-[4.8rem]' >
         <div>
           <Link to="/" className="w-[8rem] h-[10rem] " ><img src={Logo} className="w-[8rem] h-[10rem]" alt="logo du site zhamza" />  </Link>

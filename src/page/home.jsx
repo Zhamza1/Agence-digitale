@@ -34,7 +34,7 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
         <link rel="canonical" href="/" />
       </Helmet>
    
-    <section className=' bg-header2 lg:bg-header1024 sm:bg-header425 bg-no-repeat 2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] lg:pb-[4rem]'>
+    <section className=' bg-header2 lg:bg-header1024 sm:bg-header425 bg-no-repeat 2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] sm:rounded-bl-[100px] lg:pb-[4rem]'>
        <header className='pt-[2.8rem] pb-[3.4rem] md:flex md:flex-row-reverse '>
         <nav className='z-[100000]' ref={navRef} > 
           <ul className='flex justify-around px-[15rem] text-white items-center font-regular md:flex-col text-[2.4rem] lg:text-[20px] md:text-[40px] '>
@@ -56,7 +56,7 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
       </header>
       <div  >
         <div className='flex justify-center' > <h1 className=' w-[103rem] ' >Faites appel à nous pour donner vie à votre projet et augmenter votre visibilité en ligne.</h1> </div> 
-        <div className='flex justify-center' > <h3 className=' font-medium w-[103rem] ' > Grâce à notre équipe expérimentée et passionnée, nous aidons nos clients à atteindre leurs objectifs en matière de marketing numérique. </h3></div> 
+        <div className='flex justify-center' > <h3 className='  w-[103rem] ' > Grâce à notre équipe expérimentée et passionnée, nous aidons nos clients à atteindre leurs objectifs en matière de marketing numérique. </h3></div> 
 
         <div className='pt-[3rem] text-center ' >
           <Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-main font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[14px] ' >Contact</button> </Link> 

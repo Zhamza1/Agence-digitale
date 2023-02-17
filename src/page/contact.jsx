@@ -66,7 +66,7 @@ const Contact = () => {
               />
             </div>
             <div className='mt-7' >
-              <button type='submit' className=' text-white bg-secondary px-[2rem] py-[1rem] rounded-[1rem] text-[20px] hover:bg-[#F0BDB3] transition ease-in-out delay-100  hover:text-[#24252D] ' >Envoyer</button>
+              <button type='submit' className=' text-white bg-secondary px-[2rem] py-[1rem] rounded-[1rem] text-[20px] hover:bg-[#F0BDB3] transition ease-in-out delay-100  hover:text-[#24252D] md:text-[14px] ' >Envoyer</button>
             </div>
           </form>
         </div>
@@ -82,23 +82,23 @@ const Contact = () => {
         <div className='flex justify-center' >
           <h2>Contacter notre service commercial</h2>
         </div>
-        <div className='flex justify-around mt-[5rem] mb-[5rem] mx-[10rem] ' >
+        <div className='flex justify-around mt-[5rem] mb-[5rem] mx-[10rem] md:flex-col ' >
           <article>
-            <figure>
+            <figure style={{ textAlign: '-webkit-center' }} >
               <img className=' w-[11rem] h-[11rem] ' src={LocalisationLogo} alt="Logo définissant une localisation" />
               <h3 className='text-center mt-[0.2rem] ' >Paris</h3>
               <p className='text-center text-[#7D8CA8] font-bold mt-[0.2rem] ' >Localisation</p>
             </figure>
           </article>
           <article>
-            <figure style={{ textAlign: '-webkit-center' }} >
+            <figure className='md:mt-[4rem]' style={{ textAlign: '-webkit-center' }} >
               <img className=' w-[11rem] h-[11rem] ' src={MessageLogo} alt="Logo définissant les messages " />
               <h3 className='text-center mt-[0.2rem] ' >(+33) 7.67.33.69.79</h3>
               <p className='text-center text-[#7D8CA8] font-bold mt-[0.2rem] ' >Pour avoir un contact par téléphone</p>
             </figure>
           </article>
           <article>
-            <figure style={{ textAlign: '-webkit-center' }} >
+            <figure className='md:mt-[4rem]' style={{ textAlign: '-webkit-center' }} >
               <img className=' w-[11rem] h-[11rem] ' src={MailLogo} alt="Logo définissant les mails" />
               <h3 className='text-center mt-[0.2rem] ' >hamza.mahmood@outlook.fr</h3>
               <p className='text-center text-[#7D8CA8] font-bold mt-[0.2rem] ' >Pour toute question écrite</p>
