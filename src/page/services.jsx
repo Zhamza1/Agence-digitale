@@ -16,8 +16,8 @@ const tarif = (site, prix, description, description2, gris,bgColor) => {
 
       <Header/>
       <section className=' mt-[8rem] mb-[10rem]' >
-      <h1 className=' flex justify-center '>Nos Services </h1>
-      <div className='flex justify-center' > <h3 className=' mb-[8rem] text-center w-[105rem] ' >Services sur mesure pour nos clients nous comprenons que chaque client a des besoins uniques et c'est pour cela que nous nous adaptons à chaque client en proposant des services personnalisés pour répondre à leurs besoins spécifiques.</h3> </div>
+      <h1 className=' flex justify-center sm:justify-start sm:ml-[5%] '>Nos Services </h1>
+      <div className='flex justify-center' > <h3 className=' mb-[8rem] text-center w-[105rem] sm:w-[90%] sm:text-left  ' >Services sur mesure pour nos clients nous comprenons que chaque client a des besoins uniques et c'est pour cela que nous nous adaptons à chaque client en proposant des services personnalisés pour répondre à leurs besoins spécifiques.</h3> </div>
 
 
       <div>

@@ -29,7 +29,7 @@ const Contact = () => {
         <div className='text-center text-red-500'>
           <p>{isError}</p>
         </div>
-          <h1 className=' text-third font-semibold mt-[6rem] '>Contactez nous</h1>
+          <h1 className=' text-third font-semibold mt-[6rem]  '>Contactez nous</h1>
           <h3 className=' mt-[1rem] pb-[0.5rem] text-[#ADA3A3] font-semibold  ' >Que vous ayez une question sur les fonctionnalités les prix ou autre, je suis prêt à répondre à toutes vos questions.</h3>
           
           <form name='contact' className='mt-[2.5rem] ' method='post' data-netlify="true" onSubmit="submit" >
@@ -66,7 +66,7 @@ const Contact = () => {
               />
             </div>
             <div className='mt-7' >
-              <button type='submit' className=' text-white bg-secondary px-[2rem] py-[1rem] rounded-[1rem] text-[20px] hover:bg-[#F0BDB3] transition ease-in-out delay-100  hover:text-[#24252D] md:text-[16px]'>Envoyer</button>
+              <button type='submit' className=' text-white bg-secondary px-[2rem] py-[1rem] rounded-[1rem] md:rounded-[8px] text-[20px] hover:bg-[#F0BDB3] transition ease-in-out delay-100  hover:text-[#24252D] md:text-[16px]'>Envoyer</button>
             </div>
           </form>
         </div>

@@ -4,7 +4,7 @@ const realisationsCard = (props) => {
   return (
     <>
         <div className={`${props.style}`} >
-          <a href={`${props.link}`} target="_blank" > <img src={`${props.img}`} alt={`${props.alt}`} className='w-[100%] rounded-[1rem] ' />  </a>
+          <a href={`${props.link}`} target="_blank" > <img src={`${props.img}`} alt={`${props.alt}`} className='w-[100%] rounded-[1rem] md:rounded-[8px] ' />  </a>
         </div>
     </>
   )
