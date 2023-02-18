@@ -9,8 +9,8 @@ const aPropos = () => {
     <>
   <section className="mb-[0rem]" >
       <h1 className='flex justify-center mt-[3rem]' > A propos de nous  </h1>
-      <div className='flex pt-[4rem] justify-around pb-[8rem] md:flex-col '>
-          <img src={Illu1} alt="Illustration à propos" className=' md:w-[90%] w-[40%] h-[40%] sm:w-[45%] ' />
+      <div className='flex mt-[6rem] justify-around pb-[8rem] md:flex-col '>
+          <img src={Illu1} alt="Illustration à propos" className=' md:w-[90%] w-[40%] h-[40%] ' />
         <div className='self-center w-[50%] md:w-[90%] ' > 
           <h2 className='justify-center flex font-semibold md:mt-[4rem] '>Qui sommes-nous</h2>
         

@@ -32,12 +32,12 @@ const Header = () => {
           <button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
-					<FaTimes />
+					<FaTimes className='w-[30px] h-[30px]' />
 				</button>
         </nav>
         <button className="nav-btn nav-open-btn " 
         onClick={showNavbar}>
-				  <FaBars />
+				  <FaBars className='w-[30px] h-[30px]' />
 			  </button>
       </header>
     </>

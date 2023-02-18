@@ -34,7 +34,7 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
         <link rel="canonical" href="/" />
       </Helmet>
    
-    <section className=' bg-header2 lg:bg-header1024 sm:bg-header425 bg-no-repeat 2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] sm:rounded-bl-[100px] lg:pb-[4rem]'>
+    <section className=' bg-header2 lg:bg-header1024 sm:bg-header425  2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] sm:rounded-bl-[100px] lg:pb-[4rem]'>
        <header className='pt-[2.8rem] pb-[3.4rem] md:flex md:flex-row-reverse '>
         <nav className='z-[100000]' ref={navRef} > 
           <ul className='flex justify-around px-[15rem] text-white items-center font-regular md:flex-col text-[2.4rem] lg:text-[20px] md:text-[40px] '>
@@ -44,14 +44,14 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
             <Link to="/contact" > <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >CONTACT</li> </Link>
           </ul>
           <button
-					className="nav-btn nav-close-btn"
+					className="nav-btn nav-close-btn "
 					onClick={showNavbar}>
-					<FaTimes />
+					<FaTimes className='w-[30px] h-[30px]' />
 				</button>
         </nav>
         <button className="nav-btn nav-open-btn " 
         onClick={showNavbar}>
-				  <FaBars />
+				  <FaBars className='w-[30px] h-[30px]' />
 			  </button>
       </header>
       <div  >
@@ -59,8 +59,8 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
         <div className='flex justify-center' > <h3 className='  w-[103rem] ' > Grâce à notre équipe expérimentée et passionnée, nous aidons nos clients à atteindre leurs objectifs en matière de marketing numérique. </h3></div> 
 
         <div className='pt-[3rem] text-center ' >
-          <Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-main font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[14px] ' >Contact</button> </Link> 
-          <Link to="/services" > <button type='submit' className=' ml-[2rem] text-[#FFFFFF] bg-[#FF7167] font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[14px] border-[2px] border-[main] ' >Learn More</button> </Link>        
+          <Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-main font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[16px]  ' >Contact</button> </Link> 
+          <Link to="/services" > <button type='submit' className=' ml-[2rem] text-[#FFFFFF] bg-[#FF7167] font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[16px] border-[2px] border-[main] ' >Learn More</button> </Link>        
         </div>
         </div>
         
@@ -71,21 +71,21 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
       <div className='flex justify-center  ' ><h3 className='w-[96rem] text-center md:w-[117rem] ' >Nous vous accompagnons dans votre transformation digitale avec une expertise multi-domaines. Nous créons des sites web professionnels, développons votre présence en ligne et mettons en place des stratégies marketing efficaces. Nous vous garantissons un suivi et une mise en œuvre sur mesure pour atteindre vos objectifs commerciaux.</h3></div>
       
       <div className='flex justify-around mt-[8rem] flex-wrap' >
-        <LogoComponent style="md:w-[45%] w-[30%]" picto={Vector} pictoH3="Site Internet" pictoP="Nous créons des sites web professionnels sur mesure en collaboration avec nos clients, avec des services de maintenance pour assurer leur bon fonctionnement à long terme." alt="Logo qui illustre le codage informatique" />
-        <LogoComponent style="md:w-[45%] w-[30%]" picto={LogoWebDesign} pictoH3="Web Design" pictoP="Notre designer crée des designs uniques et fonctionnels pour votre site web. Nous nous assurons qu'il soit esthétique et facile à utiliser pour vos utilisateurs." alt="Logo qui illustre le web design" />
-        <LogoComponent style="md:w-[45%] w-[30%] md:mt-[3rem]" picto={Charte} pictoH3="Charte graphique" pictoP="Nous créons une charte graphique pour votre entreprise qui reflète votre image de marque pour une présentation cohérente sur tous vos supports de communication."alt="Logo qui illustre les charte graphique que nous proposons" />
+        <LogoComponent style="w-[30%] md:w-[45%] sm:w-[90%] " picto={Vector} pictoH3="Site Internet" pictoP="Nous créons des sites web professionnels sur mesure en collaboration avec nos clients, avec des services de maintenance pour assurer leur bon fonctionnement à long terme." alt="Logo qui illustre le codage informatique" />
+        <LogoComponent style="w-[30%] md:w-[45%] sm:w-[90%] sm:mt-[8rem] " picto={LogoWebDesign} pictoH3="Web Design" pictoP="Notre designer crée des designs uniques et fonctionnels pour votre site web. Nous nous assurons qu'il soit esthétique et facile à utiliser pour vos utilisateurs." alt="Logo qui illustre le web design" />
+        <LogoComponent style="w-[30%] md:w-[45%] sm:w-[90%] sm:mt-[8rem] md:mt-[3rem]" picto={Charte} pictoH3="Charte graphique" pictoP="Nous créons une charte graphique pour votre entreprise qui reflète votre image de marque pour une présentation cohérente sur tous vos supports de communication."alt="Logo qui illustre les charte graphique que nous proposons" />
         
-        <LogoComponent style="md:w-[45%] w-[30%] mt-[3rem] " picto={CreationLogo} pictoH3="Création de logo" pictoP="Nous offrons des services de création de logo professionnels pour vous aider à créer une image de marque forte et mémorable pour votre entreprise." alt="Logo qui illustre la création de logo"/>
-        <LogoComponent style="md:w-[45%] w-[30%] mt-[3rem]" picto={MotionDesign} pictoH3="Motion Design" pictoP="Nous créons des animations vidéo professionnelles pour promouvoir votre entreprise sur internet et les réseaux sociaux." alt="Logo qui illustre le motion design"/>
-        <LogoComponent style="md:w-[45%] w-[30%] mt-[3rem] " picto={Photo} pictoH3="Photographie" pictoP="Nous proposons des services de photographie pour mettre en valeur vos produits, de vos locaux, de vos employés, etc. pour utiliser sur votre site web, vos réseaux sociaux et vos supports de communication." alt="Logo qui illustre les photos que l'on peut prendre pour vous"/>
+        <LogoComponent style="w-[30%] md:w-[45%] sm:w-[90%] sm:mt-[8rem] mt-[3rem] " picto={CreationLogo} pictoH3="Création de logo" pictoP="Nous offrons des services de création de logo professionnels pour vous aider à créer une image de marque forte et mémorable pour votre entreprise." alt="Logo qui illustre la création de logo"/>
+        <LogoComponent style="w-[30%] md:w-[45%] sm:w-[90%] sm:mt-[8rem] mt-[3rem]" picto={MotionDesign} pictoH3="Motion Design" pictoP="Nous créons des animations vidéo professionnelles pour promouvoir votre entreprise sur internet et les réseaux sociaux." alt="Logo qui illustre le motion design"/>
+        <LogoComponent style="w-[30%] md:w-[45%] sm:w-[90%] sm:mt-[8rem] mt-[3rem] " picto={Photo} pictoH3="Photographie" pictoP="Nous proposons des services de photographie pour mettre en valeur vos produits, de vos locaux, de vos employés, etc. pour utiliser sur votre site web, vos réseaux sociaux et vos supports de communication." alt="Logo qui illustre les photos que l'on peut prendre pour vous"/>
       </div>
 
       <div className='flex justify-center mt-[8rem] mb-[7rem] ' >
-       <button className='text-[#FE856E] font-bold px-[20px] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] text-[2.0rem] md:text-[14px] ' ><Link to="/services" > Tous nos services</Link></button>
+       <button className='text-[#FE856E] font-bold px-[20px] py-[1rem] rounded-[1rem] md:rounded-[10px] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] text-[2.0rem] md:text-[16px] ' ><Link to="/services" > Tous nos services</Link></button>
       </div> 
       <div className=' bg-spaceBetween w-[100%] md:h-[56rem] rounded-tr-[10rem] rounded-bl-[10rem] ' >
         <div className='flex justify-center' > <h2 className=' md:text-[24px] w-[84rem] text-main mt-[8rem] ' >Pour en savoir plus sur notre équipe et nos compétences, n'hésitez pas à nous contacter pour discuter de votre projet. </h2></div>
-        <div className='flex justify-center mt-[4rem]  ' > <button className=' flex justify-center text-[#FE856E] font-bold px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] mb-[10rem] bg-main text-[2.0rem] md:text-[14px] '><Link to="/contact">Contact</Link></button></div>
+        <div className='flex justify-center mt-[4rem]  ' > <button className=' flex justify-center text-[#FE856E] font-bold px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] mb-[10rem] bg-main text-[2.0rem] md:text-[16px] md:rounded-[10px] '><Link to="/contact">Contact</Link></button></div>
       </div>
 
     </section>
