@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import "./index.css"
 import {  HelmetProvider } from 'react-helmet-async';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

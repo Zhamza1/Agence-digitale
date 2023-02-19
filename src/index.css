@@ -23,6 +23,32 @@ body {
     background-color: #FAFAFA;
 }
 
+/*  .App {
+    width: 100vh;
+    height: 100vh;
+}
+ 
+.curseur-perso {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    position: absolute;
+    pointer-events: none;
+}
+
+.curseur-perso::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: crimson;    
+} */
+
 @layer base {
 
     label {
