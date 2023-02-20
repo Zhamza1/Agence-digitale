@@ -55,10 +55,10 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
 			  </button>
       </header>
       <div  >
-        <div className='flex justify-center' > <h1 className=' w-[103rem] ' >Faites appel à nous pour donner vie à votre projet et augmenter votre visibilité en ligne.</h1> </div> 
-        <div className='flex justify-center' > <h3 className='  w-[103rem] ' > Grâce à notre équipe expérimentée et passionnée, nous aidons nos clients à atteindre leurs objectifs en matière de marketing numérique. </h3></div> 
+        <div className='flex justify-center' > <h1 className=' w-[103rem] sm:mb-[3rem] max-w-[90%] ' >Faites appel à nous pour donner vie à votre projet et augmenter votre visibilité en ligne.</h1> </div> 
+        <div className='flex justify-center' > <h3 className='  w-[103rem] sm:mb-[3rem] max-w-[90%] ' > Grâce à notre équipe nous aidons nos clients à atteindre leurs objectifs en matière de marketing numérique. </h3></div> 
 
-        <div className='pt-[3rem] text-center ' >
+        <div className='pt-[3rem] text-center sm:mb-[3rem]' >
           <Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-main font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[16px]  ' >Contact</button> </Link> 
           <Link to="/services" > <button type='submit' className=' ml-[2rem] text-[#FFFFFF] bg-[#FF7167] font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[16px] border-[2px] border-[main] ' >Learn More</button> </Link>        
         </div>
@@ -83,8 +83,8 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
       <div className='flex justify-center mt-[8rem] mb-[7rem] ' >
        <button className='text-[#FE856E] font-bold px-[20px] py-[1rem] rounded-[1rem] md:rounded-[8px] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] text-[2.0rem] md:text-[16px] ' ><Link to="/services" > Tous nos services</Link></button>
       </div> 
-      <div className='bg-spaceBetween-2560 xl:bg-spaceBetween sm:bg-spaceBetween-2560 w-[100%] md:h-[56rem] sm:h-[75rem] rounded-tr-[10rem] sm:rounded-tr-[90px] rounded-bl-[10rem] sm:rounded-bl-[90px]  ' >
-        <div className='flex justify-center' > <h2 className=' md:text-[24px] w-[84rem] text-main mt-[8rem] sm:w-[90%]'>Pour en savoir plus sur notre équipe et nos compétences, n'hésitez pas à nous contacter pour discuter de votre projet. </h2></div>
+      <div className='bg-spaceBetween-2560 xl:bg-spaceBetween sm:bg-spaceBetween-2560 w-[100%] md:h-[56rem] sm:h-[75rem] mini:h-[90rem] rounded-tr-[10rem] sm:rounded-tr-[90px] rounded-bl-[10rem] sm:rounded-bl-[90px]  ' >
+        <div className='flex justify-center' > <h2 className=' md:text-[24px] w-[84rem] text-main mt-[8rem] sm:w-[90%]'>Pour en savoir plus sur notre équipe et nos compétences, n'hésitez pas à nous contacter pour discuter de votre projet </h2></div>
         <div className='flex justify-center mt-[4rem]  ' > <button className=' flex justify-center text-[#FE856E] font-bold px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] mb-[10rem] bg-main text-[2.0rem] md:text-[16px] md:rounded-[8px] '><Link to="/contact">Contact</Link></button></div>
       </div>
 
