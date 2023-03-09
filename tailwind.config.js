@@ -14,6 +14,9 @@ module.exports = {
       'xl': {'max': '1500px'},
       // => @media (max-width: 1279px) { ... }
 
+      'desk': '1500px',
+      // => @media (min-width: 1280px) { ... }
+
       'lg': {'max': '1025px'},
       // => @media (max-width: 1023px) { ... }
 
@@ -74,6 +77,8 @@ module.exports = {
       borderColor: {
         color: 'rgba(0, 0, 0, 0.1)',
       },
+      important: true,
+      
       width: {
         400: '400px',
         760: '760px',
@@ -89,6 +94,7 @@ module.exports = {
       minHeight: {
         590: '590px',
       },
+     
     },
   },
   plugins: [],

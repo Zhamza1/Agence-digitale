@@ -36,8 +36,8 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
    
     <section className=' bg-header2 lg:bg-header1024 sm:bg-header425  2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] sm:rounded-bl-[100px] lg:pb-[4rem]'>
        <header className='pt-[2.8rem] pb-[3.4rem] md:flex md:flex-row-reverse '>
-        <nav className='z-[100000]' ref={navRef} > 
-          <ul className='flex justify-around px-[15rem] text-white items-center font-regular md:flex-col text-[2.4rem] lg:text-[20px] md:text-[40px] '>
+        <nav className='z-[100000] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] mx-[5%] md:mx-[0%] ' ref={navRef} > 
+          <ul className='flex justify-between text-white items-center font-regular md:flex-col text-[2.4rem] lg:text-[20px] md:text-[40px] '>
             <Link to="/" className="w-[8rem] h-[10rem] md:w-[12rem] md:h-[15rem] " > <img src={Logo} alt="logo du site zhamza" /> </Link>
             <Link to="/realisations" ><li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 uppercase '>Réalisations</li> </Link>
             <Link to="/services"> <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >SERVICES</li></Link>
@@ -70,7 +70,7 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
       <h1 className=' flex justify-center mt-[8rem] mb-[3rem] sm:justify-start sm:ml-[5%] '>Transformation digitale </h1>
       <div className='flex justify-center  ' ><h3 className='w-[96rem] text-center md:w-[117rem] sm:w-[90%] sm:text-left ' >Nous vous accompagnons dans votre transformation digitale avec une expertise multi-domaines. Nous créons des sites web professionnels, développons votre présence en ligne et mettons en place des stratégies marketing efficaces. Nous vous garantissons un suivi et une mise en œuvre sur mesure pour atteindre vos objectifs commerciaux.</h3></div>
       
-      <div className='flex justify-around mt-[8rem] flex-wrap' >
+      <div className='flex justify-between !mt-[8rem] flex-wrap mx-[5%] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px]  ' >
         <LogoComponent style="w-[30%] md:w-[45%] sm:w-[90%] " picto={Vector} pictoH3="Site Internet" pictoP="Nous créons des sites web professionnels sur mesure en collaboration avec nos clients, avec des services de maintenance pour assurer leur bon fonctionnement à long terme." alt="Logo qui illustre le codage informatique" />
         <LogoComponent style="w-[30%] md:w-[45%] sm:w-[90%] sm:mt-[8rem] " picto={LogoWebDesign} pictoH3="Web Design" pictoP="Notre designer crée des designs uniques et fonctionnels pour votre site web. Nous nous assurons qu'il soit esthétique et facile à utiliser pour vos utilisateurs." alt="Logo qui illustre le web design" />
         <LogoComponent style="w-[30%] md:w-[45%] sm:w-[90%] sm:mt-[8rem] md:mt-[3rem]" picto={Charte} pictoH3="Charte graphique" pictoP="Nous créons une charte graphique pour votre entreprise qui reflète votre image de marque pour une présentation cohérente sur tous vos supports de communication."alt="Logo qui illustre les charte graphique que nous proposons" />
@@ -85,7 +85,7 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
       </div> 
       <div className='bg-spaceBetween-2560 xl:bg-spaceBetween sm:bg-spaceBetween-2560 w-[100%] md:h-[56rem] sm:h-[75rem] rounded-tr-[10rem] sm:rounded-tr-[90px] rounded-bl-[10rem] sm:rounded-bl-[90px]  ' >
         <div className='flex justify-center' > <h2 className=' md:text-[24px] w-[84rem] text-main mt-[8rem] sm:w-[90%]'>Pour en savoir plus sur notre équipe et nos compétences, n'hésitez pas à nous contacter pour discuter de votre projet. </h2></div>
-        <div className='flex justify-center mt-[4rem]  ' > <button className=' flex justify-center text-[#FE856E] font-bold px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] mb-[10rem] bg-main text-[2.0rem] md:text-[16px] md:rounded-[8px] '><Link to="/contact">Contact</Link></button></div>
+        <div className='flex justify-center mt-[4rem]'> <button className=' flex justify-center text-[#FE856E] font-bold px-[2rem] py-[1rem] rounded-[1rem] hover:bg-[#F0BDB3] transition ease-in-out delay-100 border-[1px] border-[#FE856E] hover:text-[#24252D] mb-[10rem] bg-main text-[2.0rem] md:text-[16px] md:rounded-[8px] '><Link to="/contact">Contact</Link></button></div>
       </div>
 
     </section>

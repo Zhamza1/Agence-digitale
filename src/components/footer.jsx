@@ -14,8 +14,8 @@ const footer = (props) => {
   return (
     <>
       <footer className={` bg-third text-white w-full pb-[1.2rem] sm:pb-[4rem] rounded-tr-[10rem] sm:rounded-tr-[90px] pt-[8rem] ${props.css} `}>
-        <section className='sm:flex px-[0.5rem] sm:justify-around pb-[4.8rem] ' >
-          <div className='flex sm:justify-center sm:flex-col justify-around
+        <section className='sm:flex mx-[5%] sm:justify-around pb-[4.8rem] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] desk:px-[0rem]  ' >
+          <div className='flex sm:justify-center sm:flex-col justify-between
           
           ' >
             <div className='sm:w-[100%] flex justify-center sm:mt-[4rem]  ' >
@@ -43,7 +43,6 @@ const footer = (props) => {
               </div>
               </div>
             </section>
-
           <div className='text-center pt-[2rem] font-light text-[12px]  ' >Copyright © 2022-{year} HAMZA MAHMOOD - Développeur WEB</div>  
       </footer>
     </>
