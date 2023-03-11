@@ -66,7 +66,7 @@ const Contact = () => {
               />
             </div>
             <div className='mt-7' >
-              <button type='submit' className=' text-white bg-secondary px-[2rem] py-[1rem] rounded-[1rem] md:rounded-[8px] text-[20px] hover:bg-[#F0BDB3] transition ease-in-out delay-100  hover:text-[#24252D] md:text-6px]'>Envoyer</button>
+              <button type='submit' className=' mt-[2rem] text-white bg-secondary px-[2rem] py-[1rem] rounded-[1rem] md:rounded-[8px] text-[20px] hover:bg-[#F0BDB3] transition ease-in-out delay-100  hover:text-[#24252D] md:text-6px]'>Envoyer</button>
             </div>
           </form>
         </div>

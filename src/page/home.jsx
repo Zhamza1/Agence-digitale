@@ -1,5 +1,5 @@
 import { useRef,React } from 'react'
-import APropos from './aPropos'
+
 import {
   Link
 } from "react-router-dom";
@@ -15,10 +15,12 @@ import CreationLogo from "../asset/creation-logo.png"
 import LogoWebDesign from "../asset/logo-web-design.png"
 import MotionDesign from "../asset/motion-design.png"
 import Photo from "../asset/photo.png"
+import Illu1 from "../asset/illu1.png"
+import Footer from "../components/footer"
+import Illu3 from "../asset/illu3.png"
+import Header from '../components/header';
 
-
-
-const Home = (name,picto,pictoH3,pictoP,alt) => {
+const Home = (name,picto,pictoH3,pictoP,alt,css) => {
 
   const navRef = useRef();
 
@@ -33,9 +35,9 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
         <meta name='description' content="Je suis un développeur Web, le développement Web est ma passion et je m'assure que chaque projet sur lequel je travaille est qualitatif."  />
         <link rel="canonical" href="/" />
       </Helmet>
-   
+    <Header css="hidden"   />
     <section className=' bg-header2 lg:bg-header1024 sm:bg-header425  2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[80px] sm:rounded-bl-[80px] lg:pb-[4rem]'>
-       <header className='pt-[2.8rem] pb-[3.4rem] md:flex md:flex-row-reverse '>
+       <header className='pt-[2.8rem] pb-[3.4rem] md:bg-header2 md:flex-row-reverse md:sticky md:top-0 md:hidden '>
         <nav className='z-[100000] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] mx-[5%] md:mx-[0%] ' ref={navRef} > 
           <ul className='flex justify-between text-white items-center font-regular md:flex-col text-[2.4rem] lg:text-[20px] md:text-[40px] '>
             <Link to="/" className="w-[8rem] h-[10rem] md:w-[12rem] md:h-[15rem] " > <img src={Logo} alt="logo du site zhamza" /> </Link>
@@ -89,9 +91,37 @@ const Home = (name,picto,pictoH3,pictoP,alt) => {
       </div>
 
     </section>
-      <APropos/>
-    
+    <section>
+      <h1 className='flex justify-center mt-[3rem]' > A propos de nous  </h1>
+      <div className='flex !mt-[6rem] justify-between mx-[5%]  pb-[8rem] md:flex-col desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] '>
+          <img src={Illu1} alt="Illustration à propos" className=' md:w-[90%] w-[45%] h-[45%] ' />
+        <div className=' w-[50%] md:w-[90%] md:mt-[4rem] ' > 
+          <h2 className='justify-center flex font-semibold md:mt-[4rem] sm:w-[90%] sm:justify-start '>Qui sommes-nous</h2>
+        
+        <h4 className='mt-[1.5rem]  ' >
+          Notre agence digitale est composée d'une équipe de 3 personnes talentueuses et complémentaires. Hamza est notre chef de projet et développeur web, il gère les projets de bout en bout et veille à leur bon déroulement. 
+          Charaf est notre designer, il est responsable de tout ce qui concerne le web design, la création de logo et la charte graphique. Enfin, Oscar s'occupe du motion design et de la photographie, 
+          il est responsable de donner vie à vos projets en les animant et en les mettant en scène. Ensemble, nous mettons notre expertise au service de vos projets pour vous aider à atteindre vos objectifs.
+        </h4>
+        </div>
+      </div>
 
+      <div className='flex mt-[4rem] justify-between pb-[8rem] mx-[5%] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] '>
+        <div className=' w-[50%] md:w-[90%] ' > 
+          <h2 className='justify-center flex font-semibold sm:w-[90%] sm:justify-start '>Quels sont nos atouts </h2>
+        
+        <h4 className='mt-[1.5rem] ' >
+          Notre agence digitale se distingue des autres grâce à notre petite taille d'équipe qui nous permet d'avoir une plus grande facilité à travailler ensemble pour vous offrir des solutions sur mesure.
+          Nous avons également la capacité de prendre en charge toute la chaîne de production d'un site, allant du design à la réalisation technique, en passant par le développement web. 
+          Nous vous offrons également des services supplémentaires tels que le motion design et la photographie professionnelle, qui permettent d'ajouter une plus-value à votre projet et de le rendre encore plus attractif pour votre public cible. 
+          En somme, nous sommes une équipe flexible et compétente capable de vous offrir une solution globale et de qualité pour votre projet digital.
+        </h4>
+        </div>
+          <img src={Illu3} alt="Illustration à propos" className=' md:hidden w-[45%] h-[45%] sm:w-[45%] ' />
+        </div>
+
+      </section>
+      <Footer/>
     </>
   )
 }
