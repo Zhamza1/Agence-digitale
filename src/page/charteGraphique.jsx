@@ -7,7 +7,7 @@ const charteGraphique = () => {
     <>
       <ServicesPages 
         h1="Charte graphique"
-        h2="Charte Graphique clé pour une marque Distincte" 
+        h2="Charte Graphique clé pour une marque distincte" 
         h4first="Avoir une charte graphique pour votre marque ou votre activité est crucial pour vous démarquer de vos concurrents et pour créer une image de marque forte et mémorable."
         h4second="Elle permet de coller avec votre envie, votre secteur d'activité et de faire sens avec l'envie de vos clients. Cela inclut des éléments tels que les couleurs, les polices, les images et les icônes qui sont utilisés pour représenter votre entreprise."
         h4third="Des exemples de chartes graphiques marquantes incluent la charte graphique de Coca-Cola qui utilise des couleurs rouge et blanche pour représenter la marque et une police spécifique pour le nom de la marque. La charte graphique de Nike utilise un swoosh comme icône de marque et un style minimaliste pour leur design. " 

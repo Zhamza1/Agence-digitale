@@ -7,7 +7,7 @@ const servicesPages = (props) => {
     <>
         <Header/>
         <h1 className='flex justify-center m-[4rem] ' > {props.h1} </h1>
-        <section className='flex justify-center desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] !mt-[8rem] !mb-[30rem] md:flex-col-reverse ' >
+        <section className='flex  desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] !mt-[8rem] !mb-[30rem] md:flex-col-reverse ' >
             <div className='w-[45%] md:w-[90%] ml-[5%] ' >
                 <h2> {props.h2} </h2>
                 <h4 className='mt-[1rem]' > {props.h4first} </h4>

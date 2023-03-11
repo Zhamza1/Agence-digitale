@@ -15,7 +15,7 @@ const Header = () => {
 		navRef.current.classList.toggle("responsive_nav");
 	};
 
-  let activeLink = "font-bold opacity-100 text-white-800 text-[#FFFFFF] underline opacity-[1] opacity-100 "
+  let activeLink = "font-bold !opacity-100 underline  "
 
   
 

@@ -11,6 +11,8 @@ module.exports = {
       '2xl': {'max': '2500px'},
       // => @media (max-width: 1535px) { ... }
 
+      'real': {'max': '2029px'},
+
       'xl': {'max': '1500px'},
       // => @media (max-width: 1279px) { ... }
 
@@ -25,6 +27,9 @@ module.exports = {
 
       'sm': {'max': '425px'},
       // => @media (max-width: 639px) { ... }
+
+      'mini': {'max': '375px'},
+
     },
     extend: {
       backgroundImage: {
@@ -65,6 +70,7 @@ module.exports = {
         'main': '#FCFAFA',
         'secondary': '#FE856E',
         'third': '#24252D',
+        'purple': '#3f3cbb',  
       },
       colors: {
         'main': '#FCFAFA',

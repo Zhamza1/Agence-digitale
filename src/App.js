@@ -17,6 +17,7 @@ import CreationLogo from "./page/creationLogo"
 import MaintenanceSite from "./page/maintenanceSite";
 import "./index.css"
 import CustomCursor from "./components/CustomCursor";
+import MentionLegales from "./page/mentionLegales";
 
 function App() {
 
@@ -36,7 +37,9 @@ function App() {
             <Route path="/services/motion-design" element={< Montage />} />
             <Route path="/services/photographie" element={< Photographie />} />
             <Route path="/services/creation-logo" element={< CreationLogo />} />
+            <Route path="/mentions-legales" element={< MentionLegales />} />
             <Route path="/services/maintenance-site" element={< MaintenanceSite />} />
+           
           </Routes>
         </Router>
   

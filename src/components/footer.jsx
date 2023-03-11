@@ -39,7 +39,7 @@ const footer = (props) => {
                 <a href="tel:+33 7 67 33 69 79" target="_blank" ><AiOutlineWhatsApp  className='w-[4rem] h-[4rem] lg:w-[30px] lg:h-[30px]  ml-[1.5rem] cursor-pointer ' /></a>
               </div>
               <Link to="/contact" > <p className='pt-[2rem] font-light'>Contact</p> </Link>
-              <p className='pt-[1rem] font-light cursor-pointer ' >Mentions légales </p>
+              <Link to="/mentions-legales" > <p className='pt-[1rem] font-light cursor-pointer ' >Mentions légales </p></Link>
               </div>
               </div>
             </section>

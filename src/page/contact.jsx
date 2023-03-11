@@ -24,12 +24,12 @@ const Contact = () => {
       </Helmet>
 
     <Header/>
-      <section className='flex !mt-[6rem] justify-between pb-[4rem] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] mx-[5%] ' >
+      <section className='flex !mt-[8rem] justify-between pb-[4rem] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] mx-[5%] ' >
         <div className='w-[45%] md:w-[90%] ' >
         <div className='text-center text-red-500'>
           <p>{isError}</p>
         </div>
-          <h1 className=' text-third font-semibold mt-[6rem]  '>Contactez nous</h1>
+          <h1 className=' text-third font-semibold'>Contactez nous</h1>
           <h3 className=' mt-[1rem] pb-[0.5rem] text-[#ADA3A3] font-semibold text-[16px] ' >Que vous ayez une question sur les fonctionnalités les prix ou autre, je suis prêt à répondre à toutes vos questions.</h3>
           
           <form name='contact' className='mt-[2.5rem] ' method='post' data-netlify="true" onSubmit="submit" >
