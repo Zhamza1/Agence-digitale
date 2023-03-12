@@ -57,12 +57,12 @@ const Home = (name,picto,pictoH3,pictoP,alt,css) => {
 			  </button>
       </header>
       <div  >
-        <div className='flex justify-center' > <h1 className=' w-[103rem] sm:mb-[3rem] max-w-[90%] ' >Faites appel à nous pour donner vie à votre projet et augmenter votre visibilité en ligne.</h1> </div> 
-        <div className='flex justify-center' > <h3 className='  w-[103rem] sm:mb-[3rem] max-w-[90%] ' > Grâce à notre équipe nous aidons nos clients à atteindre leurs objectifs en matière de marketing numérique. </h3></div> 
+        <div className='flex justify-center' > <h1 className=' w-[103rem] sm:mb-[3rem] max-w-[90%] md:w-[100%] ' >Faites appel à nous pour donner vie à votre projet et augmenter votre visibilité en ligne.</h1> </div> 
+        <div className='flex justify-center' > <h3 className='  w-[103rem] sm:mb-[3rem] max-w-[90%] md:w-[100%] ' > Grâce à notre équipe nous aidons nos clients à atteindre leurs objectifs en matière de marketing numérique. </h3></div> 
 
         <div className=' pt-[3rem] text-center sm:mb-[3rem]' >
-          <Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-main font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF] transition ease-in-out delay-100 text-[2rem] md:text-[16px]  dark:text-[#FE6965] dark:bg-black ' >Contact</button> </Link> 
-          <Link to="/services" > <button type='submit' className=' ml-[2rem] text-[#FFFFFF] bg-[#FF7167] font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF] transition ease-in-out delay-100 text-[2rem] md:text-[16px] border-[2px] border-[main] dark:text-[#FFFFFF] darl:bg-[#FF7167] ' >Learn More</button> </Link>        
+          <Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-main font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF] transition ease-in-out delay-100 text-[2rem] md:text-[16px]  dark:text-[#FE6965] dark:bg-main ' >Contact</button> </Link> 
+          <Link to="/services" > <button type='submit' className=' ml-[2rem] text-[#FFFFFF] bg-[#FF7167] font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF] transition ease-in-out delay-100 text-[2rem] md:text-[16px] border-[2px] border-[main] dark:text-[#FFFFFF] dark:bg-[#FF7167] ' >Learn More</button> </Link>        
         </div>
       </div>
     </section>

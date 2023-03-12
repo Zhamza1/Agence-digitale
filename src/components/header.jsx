@@ -1,6 +1,7 @@
 import { useRef,React } from 'react'
 import {
-  NavLink
+  NavLink,
+  Link
 } from "react-router-dom";
 import "./header.css"
 
@@ -22,9 +23,10 @@ const Header = (props) => {
   return (
     <>
       <header className={` z-[100000] pt-[2.8rem] bg-header2 w-[100%] md:py-[1rem] md:flex md:flex-row-reverse md:sticky md:top-0 ${props.css} `} >
+      
         <nav className='z-[100000] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] mx-[5%] md:mx-[0%] ' ref={navRef} >
           <ul className='flex justify-between text-white items-center text-[2.4rem] lg:text-[20px] md:flex-col md:text-[40px]  '  >
-            <NavLink  to="/" className='w-[8rem] h-[10rem] md:w-[12rem] md:h-[15rem] ' > <img src={Logo} alt="logo du site zhamza" /> </NavLink>
+            <NavLink  to="/" className='w-[8rem] h-[10rem] md:w-[12rem] md:h-[15rem] ' > <img src={Logo} alt="logo du site zhamza" /> </NavLink> 
               <li className=' font-medium text-[#FFB2B1] hover:opacity-100 transition-all duration-500 uppercase '  > <NavLink to="/realisations" className={({ isActive }) => isActive ? activeLink : undefined}> Réalisations  </NavLink></li> 
               <li className=' font-medium text-[#FFB2B1] hover:opacity-100 transition-all duration-500 '  > <NavLink to="/services" className={({ isActive }) => isActive ? activeLink : undefined}>  SERVICES </NavLink> </li>
               <li className=' font-medium text-[#FFB2B1] hover:opacity-100 transition-all duration-500 '  > <NavLink to="/contact" className={({ isActive }) => isActive ? activeLink : undefined}>CONTACT </NavLink> </li>
@@ -39,6 +41,7 @@ const Header = (props) => {
         onClick={showNavbar}>
 				  <FaBars className='w-[30px] h-[30px]' />
 			  </button>
+        <Link to="/" className="w-[8rem] h-[10rem] md:w-[12rem] md:h-[15rem] mr-auto ml-[5%] flex items-center " > <img className='h-[35px] ' src={Logo} alt="logo du site zhamza" /> </Link>
       </header>
     </>
   )
