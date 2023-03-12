@@ -18,6 +18,7 @@ import MaintenanceSite from "./page/maintenanceSite";
 import "./index.css"
 import CustomCursor from "./components/CustomCursor";
 import MentionLegales from "./page/mentionLegales";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
     return (
       <>
         <Router>
+          <ScrollToTop/>
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/realisations" element={<Realisations/>} />
@@ -39,7 +41,6 @@ function App() {
             <Route path="/services/creation-logo" element={< CreationLogo />} />
             <Route path="/mentions-legales" element={< MentionLegales />} />
             <Route path="/services/maintenance-site" element={< MaintenanceSite />} />
-           
           </Routes>
         </Router>
   

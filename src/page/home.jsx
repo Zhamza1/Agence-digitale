@@ -61,7 +61,7 @@ const Home = (name,picto,pictoH3,pictoP,alt,css) => {
         <div className='flex justify-center' > <h3 className='  w-[103rem] sm:mb-[3rem] max-w-[90%] ' > Grâce à notre équipe nous aidons nos clients à atteindre leurs objectifs en matière de marketing numérique. </h3></div> 
 
         <div className='pt-[3rem] text-center sm:mb-[3rem]' >
-          <Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-main font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[16px]  ' >Contact</button> </Link> 
+          <Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-main font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF] transition ease-in-out delay-100 text-[2rem] md:text-[16px]  dark:text-[#FE6965] dark:bg-main ' >Contact</button> </Link> 
           <Link to="/services" > <button type='submit' className=' ml-[2rem] text-[#FFFFFF] bg-[#FF7167] font-medium px-[4rem] py-[0.5rem] rounded-full hover:bg-[#EFEFEF]  transition ease-in-out delay-100 text-[2rem] md:text-[16px] border-[2px] border-[main] ' >Learn More</button> </Link>        
         </div>
         </div>
