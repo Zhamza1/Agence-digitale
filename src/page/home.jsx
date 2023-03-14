@@ -35,7 +35,7 @@ const Home = (name,picto,pictoH3,pictoP,alt,css) => {
         <meta name='description' content="Je suis un développeur Web, le développement Web est ma passion et je m'assure que chaque projet sur lequel je travaille est qualitatif."  />
         <link rel="canonical" href="/" />
       </Helmet>
-    <Header css="hidden"   />
+    <Header css="hidden" />
     <section className=' bg-header2 lg:bg-header1024 sm:bg-header425  2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[80px] sm:rounded-bl-[80px] lg:pb-[4rem]'>
        <header className='pt-[2.8rem] pb-[3.4rem] md:bg-header2 md:flex-row-reverse md:sticky md:top-0 md:hidden '>
         <nav className='z-[100000] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] mx-[5%] md:mx-[0%] ' ref={navRef} > 

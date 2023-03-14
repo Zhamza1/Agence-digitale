@@ -41,7 +41,7 @@ const Header = (props) => {
         onClick={showNavbar}>
 				  <FaBars className='w-[30px] h-[30px]' />
 			  </button>
-        <Link to="/" className="w-[8rem] h-[10rem] md:w-[12rem] md:h-[15rem] mr-auto ml-[5%] flex items-center " > <img className='h-[35px] ' src={Logo} alt="logo du site zhamza" /> </Link>
+        <Link to="/" className="w-[8rem] h-[10rem] md:w-[12rem] md:h-[15rem] mr-auto ml-[5%] md:flex items-center hidden " > <img className='h-[35px] ' src={Logo} alt="logo du site zhamza" /> </Link>
       </header>
     </>
   )

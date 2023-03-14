@@ -8,8 +8,8 @@ import { AiFillLinkedin } from 'react-icons/ai';
 
 const footer = (props) => {
 
-  var date = new Date();
-  var year = date.getFullYear();
+  const date = new Date();
+  const year = date.getFullYear();
 
   return (
     <>
@@ -18,11 +18,11 @@ const footer = (props) => {
           <div className='flex sm:justify-center sm:flex-col justify-between
           
           ' >
-            <div className='sm:w-[100%] flex justify-center sm:mt-[4rem]  ' >
+            <div className='sm:w-[100%] md:hidden flex justify-center sm:mt-[4rem]  ' >
               <Link to="/" className="w-[8rem] sm:w-[22rem] h-[10rem] " ><img src={Logo} className="w-[8rem] h-[10rem] sm:w-[10rem] sm:h-[12rem] " alt="logo du site zhamza" />  </Link>
             </div>
         
-            <div className='sm:w-[100%] sm:mt-[8rem]  ' >
+            <div className='sm:w-[100%] sm:mt-[6rem]  ' >
               <h4 className=' font-normal ' >Coordonnées</h4>
               
               <p className='pt-[1rem] font-light' >Paris, France
@@ -32,7 +32,7 @@ const footer = (props) => {
               <a href="mailto:hamza.mahmood@outlook.fr"><p className='pt-[1rem] font-light ' >hamza.mahmood@outlook.fr</p> </a>
             </div>
 
-            <div className='sm:w-[100%] sm:mt-[8rem]  ' >
+            <div className='sm:w-[100%] sm:mt-[8rem]' >
               <h4 className=' font-normal '>Connect</h4>
               <div className='flex pt-[2rem] ' >
                 <a href="https://www.linkedin.com/in/hamza-mahmood-b19128217/" target="_blank" ><AiFillLinkedin className='w-[4rem] h-[4rem] lg:w-[30px] lg:h-[30px] cursor-pointer' /></a>
