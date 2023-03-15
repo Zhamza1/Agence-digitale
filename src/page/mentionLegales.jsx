@@ -9,10 +9,9 @@ const mentionLegales = () => {
         <section className=' mx-[5%] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] desk:px-[0rem]   ' >
             <div className='mt-[8rem]' >
                 <h2 className=' text-secondary '>MENTIONS LÉGALES</h2>
-                <p className='mt-[1rem] ' >Le Site Zhamza.fr est édité par la société Groupe Ydyle, S.A.R.L au capital de 500 euros. <br />
+                <p className='mt-[1rem] ' >Le Site Zhamza.fr est édité par la société Zhamza<br />
                     Siège social : 210 avenue du 8 mai 1945 – 93150 Le Blanc Mesnil. <br />
-                    RCS de Paris sous le numéro 528 338 494. <br />
-                    Numéros de TVA : FR89 – 528338494 <br />
+                    N° Siret : 94848303700016 <br />
                     Directeur de publication : Hamza Mahmood. <br />
                     Adresse de courrier électronique : hamza.mahmood@outlook.fr <br />
                     Le site à fait l’objet d’un enregistrement à la CNIL sous le numéro 1469537 <br />
@@ -30,7 +29,7 @@ const mentionLegales = () => {
                 </p>    
             </div>
         </section>
-        <Footer  css=" fixed bottom-0 xl:relative " />
+        <Footer  css=" fixed bottom-0  " />
     </>
   )
 }
