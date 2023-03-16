@@ -62,6 +62,7 @@ module.exports = {
         'spaceBetween-1024': "url('./asset/space-between-1024.png')",
         'spaceBetween': "url('./asset/space-between.png')",
         'spaceBetween-2560': "url('./asset/space-between-2560.png')",
+        'spaceBetween-425': "url('./asset/space-between-425.png')",
       },
       fontSize: {
         14: '14px',
