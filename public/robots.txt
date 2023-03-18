@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.zhamza.fr/sitemap.xml
+Sitemap: https://dendenweb.fr/sitemap.xml
 
