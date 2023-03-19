@@ -9,7 +9,7 @@ const tarif = (site, prix, description, description2, gris,bgColor) => {
   return (
     <>
       <Helmet>
-        <title> Zhamza | Services </title>
+        <title> DendenWeb | Services </title>
         <meta name='description' content='Services | Un tarif adapté pour un site internet de qualité ! '  />
         <link rel="canonical" href="/services" />
       </Helmet>

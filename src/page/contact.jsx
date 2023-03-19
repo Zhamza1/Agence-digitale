@@ -18,8 +18,8 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title> Zhamza | Contact </title>
-        <meta name='description' content='Contactez nous | Que vous ayez une question sur les fonctionnalités les prix ou autre, je suis prêt à répondre à toutes vos questions.'  />
+        <title> DendenWeb | Contact </title>
+        <meta name='description' content='Contactez nous | Que vous ayez une question sur les fonctionnalités les prix ou autre, nous sommes prêt à répondre à toutes vos questions.'  />
         <link rel="canonical" href="/contact" />      
       </Helmet>
 

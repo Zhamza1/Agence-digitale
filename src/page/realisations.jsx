@@ -31,8 +31,8 @@ const Realisations = (services) => {
   return (
       <>
       <Helmet>
-          <title> Zhamza | Réalisations </title>
-          <meta name='description' content='Mes récents travaux | Vous retrouverez ici les derniers travaux que j’ai pu réaliser '  />
+          <title> DendenWeb | Réalisations </title>
+          <meta name='description' content='Nos récents travaux | Vous retrouverez ici les derniers travaux que nous avons pu réaliser '  />
           <link rel="canonical" href="/realisations" />
         </Helmet>
     

@@ -1,15 +1,23 @@
 import React from 'react'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import {Helmet} from 'react-helmet-async'
 
 const mentionLegales = () => {
   return (
     <>
+
+        <Helmet>
+          <title> DendenWeb | Mentions Légales </title>
+          <meta name='description' content='Nos récents travaux | Vous retrouverez ici les derniers travaux que nous avons pu réaliser '  />
+          <link rel="canonical" href="/realisations" />
+        </Helmet>
+    
         <Header/>
         <section className=' mx-[5%] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] desk:px-[0rem]   ' >
             <div className='mt-[8rem]' >
                 <h2 className=' text-secondary '>MENTIONS LÉGALES</h2>
-                <p className='mt-[1rem] ' >Le Site Zhamza.fr est édité par la société Zhamza<br />
+                <p className='mt-[1rem] ' >Le Site DendenWeb.fr est édité par la société DendenWeb<br />
                     Siège social : 210 avenue du 8 mai 1945 – 93150 Le Blanc Mesnil. <br />
                     N° Siret : 94848303700016 <br />
                     Directeur de publication : Hamza Mahmood. <br />
@@ -22,9 +30,9 @@ const mentionLegales = () => {
                 <h2 className=' text-secondary ' >RÉSPONSABILITÉ</h2>
                 <p className='mt-[1rem]' >Le propriétaire du site web assure la responsabilité des informations fournies et assure au mieux la mise à jour et l’exactitude de celles-ci. Il se réserve le droit de modifier le contenu à tout moment et sans préavis.</p>
 
-                <p className='mt-[1rem]' >    Toutes les marques citées dans ce site appartiennent à leur firmes respectives. Tous les produis, logos et images cités dans ce site appartiennent à leur marque respective. </p>
+                <p className='mt-[1rem]' >Toutes les marques citées dans ce site appartiennent à leur firmes respectives. Tous les produis, logos et images cités dans ce site appartiennent à leur marque respective. </p>
 
-                <p className='mt-[1rem]' >    Traitement des données personnelles <br />
+                <p className='mt-[1rem]' >Traitement des données personnelles <br />
                     Les informations provenant de l’enregistrement de l’utilisateur sur le site lors d’une commande seront gardées confidentiellement et ne seront en aucun cas divulguées à un tiers.
                 </p>    
             </div>

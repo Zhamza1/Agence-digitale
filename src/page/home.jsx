@@ -31,8 +31,8 @@ const Home = (name,picto,pictoH3,pictoP,alt,css) => {
   return (
     <>
       <Helmet>
-        <title> Zhamza | Développeur Web </title>
-        <meta name='description' content="Je suis un développeur Web, le développement Web est ma passion et je m'assure que chaque projet sur lequel je travaille est qualitatif."  />
+        <title> DendenWeb | Agence digital </title>
+        <meta name='description' content="DendenWeb l'agence qui donne vie à votre présence en ligne. Création de sites web, web design et motion design notre équipe vous accompagne pour une expérience optimale."  />
         <link rel="canonical" href="/" />
       </Helmet>
     <Header css="hidden" />
@@ -40,7 +40,7 @@ const Home = (name,picto,pictoH3,pictoP,alt,css) => {
        <header className='pt-[2.8rem] pb-[3.4rem] md:bg-header2 md:flex-row-reverse md:sticky md:top-0 md:hidden '>
         <nav className='z-[100000] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] mx-[5%] md:mx-[0%] ' ref={navRef} > 
           <ul className='flex justify-between text-white items-center font-regular md:flex-col text-[2.4rem] lg:text-[20px] md:text-[40px] '>
-            <Link to="/" className="w-[8rem] h-[10rem] md:w-[12rem] md:h-[15rem] " > <img src={Logo} alt="logo du site zhamza" /> </Link>
+            <Link to="/" className="w-[12rem] h-[10rem] md:w-[12rem] md:h-[15rem] " > <img src={Logo} alt="logo du site zhamza" /> </Link>
             <Link to="/realisations" ><li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 uppercase '>Réalisations</li> </Link>
             <Link to="/services"> <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >SERVICES</li></Link>
             <Link to="/contact" > <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >CONTACT</li> </Link>

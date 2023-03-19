@@ -15,11 +15,9 @@ const footer = (props) => {
     <>
       <footer className={` bg-third text-white w-full pb-[1.2rem] sm:pb-[4rem] rounded-tr-[10rem] sm:rounded-tr-[90px] pt-[8rem] ${props.css} `}>
         <section className='sm:flex mx-[5%] sm:justify-around pb-[4.8rem] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] desk:px-[0rem]  ' >
-          <div className='flex sm:justify-center sm:flex-col justify-between
-          
-          ' >
+          <div className='flex sm:justify-center sm:flex-col justify-between' >
             <div className='sm:w-[100%] md:hidden flex justify-center sm:mt-[4rem]  ' >
-              <Link to="/" className="w-[8rem] sm:w-[22rem] h-[10rem] " ><img src={Logo} className="w-[8rem] h-[10rem] sm:w-[10rem] sm:h-[12rem] " alt="logo du site zhamza" />  </Link>
+              <Link to="/" className="w-[12rem] h-[10rem] " ><img src={Logo} className="w-[100%] h-[100%]  " alt="logo du site zhamza" />  </Link>
             </div>
         
             <div className='sm:w-[100%] sm:mt-[6rem]  ' >
