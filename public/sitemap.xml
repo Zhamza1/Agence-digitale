@@ -36,6 +36,83 @@
 
    <url>
 
+      <loc>https://dendenweb.fr/services/site-internet</loc>
+
+      <lastmod>2022-12-10T11:42:35+00:00</lastmod>
+
+      <priority>0.5</priority>
+
+
+   </url>
+
+   <url>
+
+      <loc>https://dendenweb.fr/services/web-design</loc>
+
+      <lastmod>2022-12-10T11:42:35+00:00</lastmod>
+
+      <priority>0.5</priority>
+
+
+   </url>
+
+   <url>
+
+      <loc>https://dendenweb.fr/services/motion-design</loc>
+
+      <lastmod>2022-12-10T11:42:35+00:00</lastmod>
+
+      <priority>0.5</priority>
+
+
+   </url>
+
+   <url>
+
+      <loc>https://dendenweb.fr/services/photographie</loc>
+
+      <lastmod>2022-12-10T11:42:35+00:00</lastmod>
+
+      <priority>0.5</priority>
+
+
+   </url>
+
+   <url>
+
+      <loc>https://dendenweb.fr/services/charte-graphique</loc>
+
+      <lastmod>2022-12-10T11:42:35+00:00</lastmod>
+
+      <priority>0.5</priority>
+
+
+   </url>
+
+   <url>
+
+      <loc>https://dendenweb.fr/services/maintenance-site</loc>
+
+      <lastmod>2022-12-10T11:42:35+00:00</lastmod>
+
+      <priority>0.5</priority>
+
+
+   </url>
+
+   <url>
+
+      <loc>https://dendenweb.fr/services/creation-logo</loc>
+
+      <lastmod>2022-12-10T11:42:35+00:00</lastmod>
+
+      <priority>0.5</priority>
+
+
+   </url>
+
+   <url>
+
       <loc>https://dendenweb.fr/contact</loc>
 
       <lastmod>2022-12-10T11:42:35+00:00</lastmod>
@@ -45,5 +122,16 @@
 
    </url>
 
+   <url>
+
+      <loc>https://dendenweb.fr/mentions-legales</loc>
+
+      <lastmod>2022-12-10T11:42:35+00:00</lastmod>
+
+      <priority>0.5</priority>
+
+
+   </url>
 
 </urlset>
+

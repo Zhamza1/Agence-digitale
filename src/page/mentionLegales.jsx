@@ -18,7 +18,7 @@ const mentionLegales = () => {
                 </p>
             </div>
 
-            <div className='pb-[8rem] mt-[2rem] ' >
+            <div className='pb-[16rem] mt-[2rem] ' >
                 <h2 className=' text-secondary ' >RÉSPONSABILITÉ</h2>
                 <p className='mt-[1rem]' >Le propriétaire du site web assure la responsabilité des informations fournies et assure au mieux la mise à jour et l’exactitude de celles-ci. Il se réserve le droit de modifier le contenu à tout moment et sans préavis.</p>
 
@@ -29,7 +29,7 @@ const mentionLegales = () => {
                 </p>    
             </div>
         </section>
-        <Footer  css=" fixed bottom-0  " />
+        <Footer  css=" fixed bottom-0 xl:relative " />
     </>
   )
 }
