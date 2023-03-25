@@ -1,6 +1,7 @@
 import { useRef,React } from 'react'
 
 import {
+  NavLink,
   Link
 } from "react-router-dom";
 
@@ -40,10 +41,10 @@ const Home = (name,picto,pictoH3,pictoP,alt,css) => {
        <header className='pt-[2.8rem] pb-[3.4rem] md:bg-header2 md:flex-row-reverse md:sticky md:top-0 md:hidden '>
         <nav className='z-[100000] desk:my-[0] desk:mx-[auto] desk:max-w-[1440px] mx-[5%] md:mx-[0%] ' ref={navRef} > 
           <ul className='flex justify-between text-white items-center font-regular md:flex-col text-[2.4rem] lg:text-[20px] md:text-[40px] '>
-            <Link to="/" className="w-[12rem] h-[10rem] md:w-[12rem] md:h-[15rem] " > <img src={Logo} alt="logo du site zhamza" /> </Link>
-            <Link to="/realisations" ><li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 uppercase '>Réalisations</li> </Link>
-            <Link to="/services"> <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >SERVICES</li></Link>
-            <Link to="/contact" > <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >CONTACT</li> </Link>
+            <NavLink to="/" className="w-[12rem] h-[10rem] md:w-[12rem] md:h-[15rem] " > <img className='w-[100%] h-[100%] ' src={Logo} alt="logo du site zhamza" /> </NavLink>
+            <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 uppercase '> <NavLink to="/realisations" > Réalisations </NavLink> </li>
+            <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' > <NavLink to="/services"> SERVICES </NavLink> </li>
+            <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' > <NavLink to="/contact" > CONTACT </NavLink> </li> 
           </ul>
           <button
 					className="nav-btn nav-close-btn "

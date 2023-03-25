@@ -41,7 +41,7 @@ const Header = (props) => {
         onClick={showNavbar}>
 				  <FaBars className='w-[30px] h-[30px]' />
 			  </button>
-        <Link to="/" className="w-[8rem] h-[10rem] md:w-[90px] md:h-[70px] mr-auto ml-[5%] md:flex items-center hidden " > <img className=' w-[100%] h-[100%] ' src={Logo} alt="logo du site zhamza" /> </Link>
+        <NavLink to="/" className="w-[8rem] h-[10rem] md:w-[90px] md:h-[70px] mr-auto ml-[5%] md:flex items-center hidden " > <img className=' w-[100%] h-[100%] ' src={Logo} alt="logo format mobile du site zhamza" /> </NavLink>
       </header>
     </>
   )
