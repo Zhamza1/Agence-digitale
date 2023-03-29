@@ -27,7 +27,7 @@ const footer = (props) => {
               </p>
               <a href="tel:+33 7 67 33 69 79"><p className='pt-[1rem] font-light ' >(+33) 7.67.33.69.79</p></a>
 
-              <a href="mailto:hamza.mahmood@outlook.fr"><p className='pt-[1rem] font-light ' >hamza.mahmood@outlook.fr</p> </a>
+              <a href="mailto:dendenweb1@gmail.com"><p className='pt-[1rem] font-light ' >dendenweb1@gmail.com</p> </a>
             </div>
 
             <div className='sm:w-[100%] sm:mt-[8rem]' >
