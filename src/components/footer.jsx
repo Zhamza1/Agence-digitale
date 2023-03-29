@@ -41,7 +41,7 @@ const footer = (props) => {
               </div>
               </div>
             </section>
-          <div className='text-center pt-[2rem] font-light text-[12px]  ' >Copyright © 2022-{year} HAMZA MAHMOOD - Développeur WEB</div>  
+          <div className='text-center pt-[2rem] font-light text-[12px]  ' >Copyright © 2022-{year} DENDEN WEB - Agence Digitale</div>  
       </footer>
     </>
   )
