@@ -53,10 +53,6 @@ const Realisations = (services) => {
           <RealisationsCard style='w-[30%] lg:w-[45%]  sm:w-[100%] sm:mb-[3.6rem] mt-[2rem] sm:mt-[0rem] ' link="https://www.behance.net/gallery/161172421/Projet-McDonalds" alt="Image graphic design Mcdo" img={Mcdo} />
           <RealisationsCard style='w-[30%] lg:w-[45%]  sm:w-[100%] sm:mb-[3.6rem] mt-[2rem] sm:mt-[0rem] ' link="https://www.behance.net/gallery/162539439/VEUVE-CLICQUOT" alt="Image graphic design Veuve Cliquot " img={VeuveCliquot} />
           <RealisationsCard style='w-[30%] lg:w-[45%]  sm:w-[100%] sm:mb-[3.6rem] mt-[2rem] sm:mt-[0rem] '  link="https://www.behance.net/gallery/164103725/Branding-BrikABrak" alt="Image Site Shoppy" img={Brikabrak}  />
-
-          <RealisationsCard style='w-[30%] lg:w-[45%]  sm:w-[100%] sm:mb-[3.6rem] mt-[2rem] sm:mt-[0rem] ' link="http://www.saricharaf.fr/identite-visuelle/" alt="Image graphic design graphic designer" img={GraphicDesigner} />
-          <RealisationsCard style='w-[30%] lg:w-[45%]  sm:w-[100%] sm:mb-[3.6rem] mt-[2rem] sm:mt-[0rem]  ' link="http://www.saricharaf.fr/identite-visuelle/#twocans" alt="Image design Two-cans" img={TwoCans}  />
-          <RealisationsCard style='w-[30%] lg:w-[45%]  sm:w-[100%] sm:mb-[3.6rem] mt-[2rem] sm:mt-[0rem]'  link="http://www.saricharaf.fr/graphisme_02/#vinyle" alt="Image design Vinyle" img={Vinyle}  />
           
         </div>
     

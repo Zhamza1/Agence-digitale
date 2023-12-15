@@ -21,7 +21,7 @@ const mentionLegales = () => {
                     Siège social : 210 avenue du 8 mai 1945 – 93150 Le Blanc Mesnil. <br />
                     N° Siret : 94848303700016 <br />
                     Directeur de publication : Hamza Mahmood. <br />
-                    Adresse de courrier électronique : hamza.mahmood@outlook.fr <br />
+                    Adresse de courrier électronique : dendenweb1@gmail.com <br />
                     Le site à fait l’objet d’un enregistrement à la CNIL sous le numéro 1469537 <br />
                 </p>
             </div>

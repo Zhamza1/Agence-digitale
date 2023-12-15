@@ -100,7 +100,7 @@ const Contact = () => {
           <article>
             <figure className='md:mt-[4rem]' style={{ textAlign: '-webkit-center' }} >
               <img className=' w-[11rem] h-[11rem] lg:w-[80px] lg:h-[80px]  ' src={MailLogo} alt="Logo définissant les mails" />
-              <h3 className='text-center mt-[0.2rem] text-[16px]' >hamza.mahmood@outlook.fr</h3>
+              <h3 className='text-center mt-[0.2rem] text-[16px]' >dendenweb1@gmail.com</h3>
               <p className='text-center text-[#7D8CA8] font-bold mt-[0.2rem] ' >Pour toute question écrite</p>
             </figure>
           </article>
